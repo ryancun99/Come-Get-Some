@@ -1,0 +1,1349 @@
+{
+  "generated_at": "2026-09-09T02:29:16.437301+00:00",
+  "years": {
+    "2015": {
+      "teams": [
+        {
+          "team_id": 2,
+          "espn_team_name": "Beats by Ray",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1672.0,
+          "pa": 1686.0,
+          "final_standing": 1
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "The Tobias",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1653.0,
+          "pa": 1624.0,
+          "final_standing": 2
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Julio Think You Are ",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1881.0,
+          "pa": 1702.0,
+          "final_standing": 3
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Dez Caught It",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1568.0,
+          "pa": 1519.0,
+          "final_standing": 4
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Team Ferrone",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1574.0,
+          "pa": 1735.0,
+          "final_standing": 5
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "It Was a Test",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1617.0,
+          "pa": 1474.0,
+          "final_standing": 6
+        },
+        {
+          "team_id": 4,
+          "espn_team_name": "DeMarco Polo",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1752.0,
+          "pa": 1687.0,
+          "final_standing": 7
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Team TFTC",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1762.0,
+          "pa": 1742.0,
+          "final_standing": 8
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Teenage Mutant Ninja Bortles",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1556.0,
+          "pa": 1635.0,
+          "final_standing": 9
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Suh Girls One Cup",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1493.0,
+          "pa": 1724.0,
+          "final_standing": 10
+        }
+      ]
+    },
+    "2016": {
+      "teams": [
+        {
+          "team_id": 5,
+          "espn_team_name": "Team Griz",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1788.0,
+          "pa": 1392.0,
+          "final_standing": 1
+        },
+        {
+          "team_id": 11,
+          "espn_team_name": "\u00f0\u009f\u0092\u00af -_-\u00f0\u009f\u0092\u00af",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1761.0,
+          "pa": 1413.0,
+          "final_standing": 2
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Forte Inch  Ditka",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1495.0,
+          "pa": 1402.0,
+          "final_standing": 3
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Prater God I Win",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1617.0,
+          "pa": 1662.0,
+          "final_standing": 4
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "The Nerduels",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1625.0,
+          "pa": 1640.0,
+          "final_standing": 5
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "AP's  Daycare",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1601.0,
+          "pa": 1546.0,
+          "final_standing": 6
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Baltimore Death Birds",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1610.0,
+          "pa": 1724.0,
+          "final_standing": 7
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Kanye 2020",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1671.0,
+          "pa": 1573.0,
+          "final_standing": 8
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Team Engle",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1329.0,
+          "pa": 1621.0,
+          "final_standing": 9
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Dak for MVP",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1539.0,
+          "pa": 1479.0,
+          "final_standing": 10
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Team 8",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1425.0,
+          "pa": 1650.0,
+          "final_standing": 11
+        },
+        {
+          "team_id": 4,
+          "espn_team_name": "The Book Of Eli",
+          "wins": 2,
+          "losses": 11,
+          "ties": 0,
+          "pf": 1043.0,
+          "pa": 1402.0,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2017": {
+      "teams": [
+        {
+          "team_id": 12,
+          "espn_team_name": "Savage Squad",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1406.0,
+          "pa": 1454.0,
+          "final_standing": 1
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Team Dietz",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1491.0,
+          "pa": 1476.0,
+          "final_standing": 2
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Miller  Lite",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1578.0,
+          "pa": 1449.0,
+          "final_standing": 3
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Team Griz",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1353.0,
+          "pa": 1293.0,
+          "final_standing": 4
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Kanye 2020",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1579.0,
+          "pa": 1460.0,
+          "final_standing": 5
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Kroft Macaroni and Cheese",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1343.0,
+          "pa": 1387.0,
+          "final_standing": 6
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "A team has No Name",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1491.0,
+          "pa": 1322.0,
+          "final_standing": 7
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Dak for MVP",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1556.0,
+          "pa": 1264.0,
+          "final_standing": 8
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1402.0,
+          "pa": 1446.0,
+          "final_standing": 9
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "Team Rizzuto",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1385.0,
+          "pa": 1542.0,
+          "final_standing": 10
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "The  CFL",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1199.0,
+          "pa": 1638.0,
+          "final_standing": 11
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Show Me Them TD 's",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1369.0,
+          "pa": 1421.0,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2018": {
+      "teams": [
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1827.5,
+          "pa": 1639.5,
+          "final_standing": 1
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1800.3,
+          "pa": 1649.1,
+          "final_standing": 2
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "Team Name",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1588.9,
+          "pa": 1744.3,
+          "final_standing": 3
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Team Griz",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1731.8,
+          "pa": 1615.6,
+          "final_standing": 4
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "The  CFL",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1588.6,
+          "pa": 1643.4,
+          "final_standing": 5
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Saquon Deez Nuts",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1618.4,
+          "pa": 1655.2,
+          "final_standing": 6
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Dak for MVP",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1900.8,
+          "pa": 1616.4,
+          "final_standing": 7
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Team Jeve",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1595.4,
+          "pa": 1673.6,
+          "final_standing": 8
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Kanye 2024",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1537.7,
+          "pa": 1687.0,
+          "final_standing": 9
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Show Me Them TD 's",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1827.9,
+          "pa": 1636.1,
+          "final_standing": 10
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "A team has No Name",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1607.6,
+          "pa": 1792.3,
+          "final_standing": 11
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "0- 13",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1412.7,
+          "pa": 1685.3,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2019": {
+      "teams": [
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1710.9,
+          "pa": 1655.9,
+          "final_standing": 1
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Aaron jones  Have a day",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1555.4,
+          "pa": 1571.9,
+          "final_standing": 2
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry\u2019s World",
+          "wins": 10,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1762.8,
+          "pa": 1557.5,
+          "final_standing": 3
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1834.5,
+          "pa": 1445.9,
+          "final_standing": 4
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Julio  For Prez 2020",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1609.2,
+          "pa": 1696.0,
+          "final_standing": 5
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "Cunz Rigged The League",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1871.0,
+          "pa": 1690.0,
+          "final_standing": 6
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "WET WETENSTEINBERG",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1457.1,
+          "pa": 1550.7,
+          "final_standing": 7
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Upset Season",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1536.7,
+          "pa": 1721.4,
+          "final_standing": 8
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Saquon Deez Nuts",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1496.8,
+          "pa": 1606.9,
+          "final_standing": 9
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "Saquon Deez Nuts",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1546.2,
+          "pa": 1665.5,
+          "final_standing": 10
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Team Jeve",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1346.8,
+          "pa": 1554.6,
+          "final_standing": 11
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Locked In",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1545.6,
+          "pa": 1556.7,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2020": {
+      "teams": [
+        {
+          "team_id": 8,
+          "espn_team_name": "Differently  Built ",
+          "wins": 6,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1785.4,
+          "pa": 1587.8,
+          "final_standing": 1
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1732.1,
+          "pa": 1611.1,
+          "final_standing": 2
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1575.3,
+          "pa": 1586.9,
+          "final_standing": 3
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry's World",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1637.7,
+          "pa": 1471.5,
+          "final_standing": 4
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Meet The Robinson",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1674.3,
+          "pa": 1703.2,
+          "final_standing": 5
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Cala Mari",
+          "wins": 8,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1636.2,
+          "pa": 1689.4,
+          "final_standing": 6
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Butter Lid",
+          "wins": 9,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1756.1,
+          "pa": 1573.0,
+          "final_standing": 7
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "Meet The Robinson",
+          "wins": 7,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1595.1,
+          "pa": 1576.4,
+          "final_standing": 8
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Team Jeve",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1600.6,
+          "pa": 1767.4,
+          "final_standing": 9
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "Mcbitchery   .",
+          "wins": 4,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1496.6,
+          "pa": 1588.2,
+          "final_standing": 10
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Hanew so  Horny",
+          "wins": 3,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1618.6,
+          "pa": 1855.6,
+          "final_standing": 11
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "KELCE FOR MVP",
+          "wins": 5,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1454.8,
+          "pa": 1552.2,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2021": {
+      "teams": [
+        {
+          "team_id": 14,
+          "espn_team_name": "Built Differently",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1808.9,
+          "pa": 1961.3,
+          "final_standing": 1
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Uncle  Wet",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1801.6,
+          "pa": 1707.7,
+          "final_standing": 2
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "The Gibson + Taylor Show",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1936.9,
+          "pa": 1525.9,
+          "final_standing": 3
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Butter Chubb",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1984.7,
+          "pa": 1818.7,
+          "final_standing": 4
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Demon Time",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1754.5,
+          "pa": 1689.2,
+          "final_standing": 5
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1662.3,
+          "pa": 1710.5,
+          "final_standing": 6
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "General Grevious ",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1660.4,
+          "pa": 1724.8,
+          "final_standing": 7
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1818.2,
+          "pa": 1731.8,
+          "final_standing": 8
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry's World",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1758.1,
+          "pa": 1779.1,
+          "final_standing": 9
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "HOMUNCULUS BUILT",
+          "wins": 3,
+          "losses": 11,
+          "ties": 0,
+          "pf": 1553.3,
+          "pa": 1775.5,
+          "final_standing": 10
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Bishop Sycamore",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1609.7,
+          "pa": 1851.6,
+          "final_standing": 11
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": ".   Revenge SZN",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1638.5,
+          "pa": 1711.1,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2022": {
+      "teams": [
+        {
+          "team_id": 13,
+          "espn_team_name": "Nud's   Soldiers",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1772.2,
+          "pa": 1859.6,
+          "final_standing": 1
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "The  Walker Show",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1556.0,
+          "pa": 1574.5,
+          "final_standing": 2
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Team Jeve",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1785.2,
+          "pa": 1567.8,
+          "final_standing": 3
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1677.7,
+          "pa": 1580.5,
+          "final_standing": 4
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Clear Eyes, Full Hearts ",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1811.7,
+          "pa": 1666.8,
+          "final_standing": 5
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "East Hanover Garg",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1722.2,
+          "pa": 1678.4,
+          "final_standing": 6
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry's World",
+          "wins": 12,
+          "losses": 2,
+          "ties": 0,
+          "pf": 1965.0,
+          "pa": 1631.2,
+          "final_standing": 7
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Wet's Warriors ",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1614.1,
+          "pa": 1640.3,
+          "final_standing": 8
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "The Worst Team In the League",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1739.3,
+          "pa": 1790.9,
+          "final_standing": 9
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "HOMUNCULUS BUILT",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1403.9,
+          "pa": 1668.7,
+          "final_standing": 10
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 2,
+          "losses": 12,
+          "ties": 0,
+          "pf": 1427.6,
+          "pa": 1724.3,
+          "final_standing": 11
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Cant Stay On  The Field Mike",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1539.6,
+          "pa": 1631.4,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2023": {
+      "teams": [
+        {
+          "team_id": 6,
+          "espn_team_name": "NEED TOP",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1937.2,
+          "pa": 1650.7,
+          "final_standing": 1
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Lee's Patriots",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1715.6,
+          "pa": 1572.6,
+          "final_standing": 2
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Pink Slammers",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1713.0,
+          "pa": 1665.0,
+          "final_standing": 3
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Slop Requested",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1807.9,
+          "pa": 1702.5,
+          "final_standing": 4
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Ridleys Gamblers",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1633.2,
+          "pa": 1727.3,
+          "final_standing": 5
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "0-16 Bound",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1763.0,
+          "pa": 1605.1,
+          "final_standing": 6
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1712.8,
+          "pa": 1726.1,
+          "final_standing": 7
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Top Required",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1684.1,
+          "pa": 1659.8,
+          "final_standing": 8
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "Top Enjoyer",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1604.7,
+          "pa": 1663.5,
+          "final_standing": 9
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry's World",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1668.5,
+          "pa": 1851.2,
+          "final_standing": 10
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "The No Shows",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1490.0,
+          "pa": 1659.9,
+          "final_standing": 11
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "Flat Stick Kirk",
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1617.2,
+          "pa": 1863.6,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2024": {
+      "teams": [
+        {
+          "team_id": 9,
+          "espn_team_name": "CeeDeez",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1757.8,
+          "pa": 1746.6,
+          "final_standing": 1
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Jerry's World",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1869.1,
+          "pa": 1580.2,
+          "final_standing": 2
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "Quon Solo",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1740.4,
+          "pa": 1783.1,
+          "final_standing": 3
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "Hall Hurts ",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1770.0,
+          "pa": 1754.3,
+          "final_standing": 4
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "What's Up Ladd",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1678.6,
+          "pa": 1658.9,
+          "final_standing": 5
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Top Required",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1790.1,
+          "pa": 1909.0,
+          "final_standing": 6
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "Bijan al gaib",
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1730.6,
+          "pa": 1539.0,
+          "final_standing": 7
+        },
+        {
+          "team_id": 13,
+          "espn_team_name": "Top Enjoyer",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1678.2,
+          "pa": 1640.3,
+          "final_standing": 8
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Like a Good Nabers",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1619.5,
+          "pa": 1753.7,
+          "final_standing": 9
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Gonna need neck now",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1559.3,
+          "pa": 1710.3,
+          "final_standing": 10
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1674.5,
+          "pa": 1716.4,
+          "final_standing": 11
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "Dont Kirk Off To Your Cousins",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1699.1,
+          "pa": 1775.5,
+          "final_standing": 12
+        }
+      ]
+    },
+    "2025": {
+      "teams": [
+        {
+          "team_id": 13,
+          "espn_team_name": "Nud Reaper",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1625.6,
+          "pa": 1601.8,
+          "final_standing": 1
+        },
+        {
+          "team_id": 10,
+          "espn_team_name": "Baker's Dozen (+3)",
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1756.0,
+          "pa": 1701.8,
+          "final_standing": 2
+        },
+        {
+          "team_id": 12,
+          "espn_team_name": "I Like It Sloppy",
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1662.0,
+          "pa": 1728.8,
+          "final_standing": 3
+        },
+        {
+          "team_id": 7,
+          "espn_team_name": "End Game",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1599.2,
+          "pa": 1616.8,
+          "final_standing": 4
+        },
+        {
+          "team_id": 1,
+          "espn_team_name": "Top and Jerry",
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1980.4,
+          "pa": 1634.6,
+          "final_standing": 5
+        },
+        {
+          "team_id": 14,
+          "espn_team_name": "This League Sucks",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1792.4,
+          "pa": 1792.4,
+          "final_standing": 6
+        },
+        {
+          "team_id": 8,
+          "espn_team_name": "Top Required",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1633.7,
+          "pa": 1616.3,
+          "final_standing": 7
+        },
+        {
+          "team_id": 3,
+          "espn_team_name": "Florham Park Dietz",
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1811.1,
+          "pa": 1778.0,
+          "final_standing": 8
+        },
+        {
+          "team_id": 2,
+          "espn_team_name": "Quon Solo",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1716.8,
+          "pa": 1779.0,
+          "final_standing": 9
+        },
+        {
+          "team_id": 9,
+          "espn_team_name": "Chasing Top",
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1710.1,
+          "pa": 1741.8,
+          "final_standing": 10
+        },
+        {
+          "team_id": 6,
+          "espn_team_name": "Pls txt me if my lineup not set",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1485.4,
+          "pa": 1747.7,
+          "final_standing": 11
+        },
+        {
+          "team_id": 5,
+          "espn_team_name": "I hate this league again",
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1615.2,
+          "pa": 1649.0,
+          "final_standing": 12
+        }
+      ]
+    }
+  }
+}
