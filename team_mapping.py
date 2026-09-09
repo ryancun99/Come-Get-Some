@@ -11,12 +11,14 @@ TEAM_ID_TO_OWNER = {
     1: "Ryan Cunningham",
     2: "Dan Marinos",
     3: "Chris Dietz",
+    4: "Sam Rizzuto",       # 2015 "DeMarco Polo" / 2016 "The Book Of Eli" -- confirmed against the history site's own alumni records
     5: "ryan grzymala",
     6: "Nicholas Gargiulo & Kevin Crown",
     7: "Daniel Jimenez",
     8: "Bobby Lupo",
     9: "Jonathan Lee",
     10: "Dom Belli",
+    11: "Tyler Powers",     # 2016 team name -- confirmed against the history site's own alumni records
     12: "Justin Eveland",
     13: "Hanew Alhayek",
     14: "Al Rucc",
