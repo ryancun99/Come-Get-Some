@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T01:17:33.670742+00:00",
+  "generated_at": "2026-09-09T01:45:07.434563+00:00",
   "current_week": 1,
   "standings": [
     {
       "team_id": 1,
-      "owner": "UNMAPPED (ESPN team #1: Jerry's World)",
+      "owner": "Ryan Cunningham",
       "espn_team_name": "Jerry's World",
       "wins": 0,
       "losses": 0,
@@ -14,8 +14,8 @@
     },
     {
       "team_id": 2,
-      "owner": "UNMAPPED (ESPN team #2: Quon Solo)",
-      "espn_team_name": "Quon Solo",
+      "owner": "Dan Marinos",
+      "espn_team_name": "Tate Expectations",
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -24,7 +24,7 @@
     },
     {
       "team_id": 3,
-      "owner": "UNMAPPED (ESPN team #3: Florham Park Dietz)",
+      "owner": "Chris Dietz",
       "espn_team_name": "Florham Park Dietz",
       "wins": 0,
       "losses": 0,
@@ -34,7 +34,7 @@
     },
     {
       "team_id": 5,
-      "owner": "UNMAPPED (ESPN team #5: Federal Burrow of Investigation)",
+      "owner": "ryan grzymala",
       "espn_team_name": "Federal Burrow of Investigation",
       "wins": 0,
       "losses": 0,
@@ -44,7 +44,7 @@
     },
     {
       "team_id": 6,
-      "owner": "UNMAPPED (ESPN team #6: Hammer)",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
       "espn_team_name": "Hammer",
       "wins": 0,
       "losses": 0,
@@ -54,7 +54,7 @@
     },
     {
       "team_id": 7,
-      "owner": "UNMAPPED (ESPN team #7: End Game)",
+      "owner": "Daniel Jimenez",
       "espn_team_name": "End Game",
       "wins": 0,
       "losses": 0,
@@ -64,7 +64,7 @@
     },
     {
       "team_id": 8,
-      "owner": "UNMAPPED (ESPN team #8: Top Required)",
+      "owner": "Bobby Lupo",
       "espn_team_name": "Top Required",
       "wins": 0,
       "losses": 0,
@@ -74,7 +74,7 @@
     },
     {
       "team_id": 9,
-      "owner": "UNMAPPED (ESPN team #9: Crashee Rice)",
+      "owner": "Jonathan Lee",
       "espn_team_name": "Crashee Rice",
       "wins": 0,
       "losses": 0,
@@ -84,7 +84,7 @@
     },
     {
       "team_id": 10,
-      "owner": "UNMAPPED (ESPN team #10: Shoulder Biters)",
+      "owner": "Dom Belli",
       "espn_team_name": "Shoulder Biters",
       "wins": 0,
       "losses": 0,
@@ -94,7 +94,7 @@
     },
     {
       "team_id": 12,
-      "owner": "UNMAPPED (ESPN team #12: I Like It Sloppy)",
+      "owner": "Justin Eveland",
       "espn_team_name": "I Like It Sloppy",
       "wins": 0,
       "losses": 0,
@@ -104,7 +104,7 @@
     },
     {
       "team_id": 13,
-      "owner": "UNMAPPED (ESPN team #13: Nud Reaper)",
+      "owner": "Hanew Alhayek",
       "espn_team_name": "Nud Reaper",
       "wins": 0,
       "losses": 0,
@@ -114,7 +114,7 @@
     },
     {
       "team_id": 14,
-      "owner": "UNMAPPED (ESPN team #14: Bennie and the Jettas)",
+      "owner": "Al Rucc",
       "espn_team_name": "Bennie and the Jettas",
       "wins": 0,
       "losses": 0,
