@@ -1,0 +1,57 @@
+name: Backfill Historical Data
+
+# One-time (or "run again whenever you want it refreshed") pull of deep
+# historical data: every weekly matchup score, full roster movement, and
+# full draft results for every season. Unlike update.yml this has NO
+# schedule -- it only runs when you click "Run workflow" in the Actions tab,
+# since this data doesn't need a daily refresh (except the current season's
+# matchups, which this also keeps current if you re-run it).
+#
+# Uses the same ESPN_S2 / SWID secrets already set up for the daily
+# update.yml workflow -- nothing new to configure there.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch matchup / box score history
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python fetch_matchups_history.py
+
+      - name: Fetch roster movement history
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python fetch_rosters_history.py
+
+      - name: Fetch draft history
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python fetch_draft_history.py
+
+      - name: Commit backfilled data if it changed
+        run: |
+          git config user.name "come-get-some-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add matchups_history.json rosters_history.json draft_history.json
+          git diff --staged --quiet || git commit -m "Backfill historical data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
