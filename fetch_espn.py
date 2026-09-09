@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Pulls live standings + recent transactions for the "Come Get Some" 2026 league
-from ESPN and writes them to data.json, which the tracker page (index.html)
-fetches client-side to render live.
+Pulls live standings + recent transactions + weekly box scores for the
+"Come Get Some" 2026 league from ESPN and writes them to data.json, which the
+tracker page (index.html) fetches client-side to render live.
 
 Auth: needs ESPN_S2 and SWID env vars (your ESPN session cookies), since this
 is a private league. In GitHub Actions these come from encrypted repo secrets;
@@ -30,6 +30,58 @@ YEAR = 2026
 OUTPUT_FILE = "data.json"
 
 
+def matchup_type_label(box_score):
+    mtype = str(getattr(box_score, "matchup_type", "NONE") or "NONE").upper()
+    if mtype in ("NONE", ""):
+        return "regular"
+    if "WINNERS" in mtype and "BRACKET" in mtype:
+        return "playoff"
+    return "consolation"
+
+
+def owner_for(team_id, fallback_name=""):
+    return TEAM_ID_TO_OWNER.get(team_id, f"UNMAPPED (ESPN team #{team_id}: {fallback_name})")
+
+
+def fetch_weekly_scores(league, current_week):
+    """Every regular-season + playoff matchup for weeks already played this
+    season. Cheap to run daily -- only loops up through current_week."""
+    weeks = []
+    for week in range(1, (current_week or 0) + 1):
+        try:
+            box_scores = league.box_scores(week)
+        except Exception as e:
+            print(f"  Warning: could not fetch week {week} box scores ({e}).")
+            continue
+        if not box_scores:
+            continue
+        matchups = []
+        any_real_score = False
+        for bs in box_scores:
+            home_team = getattr(bs, "home_team", None)
+            away_team = getattr(bs, "away_team", None)
+            home_score = getattr(bs, "home_score", 0) or 0
+            away_score = getattr(bs, "away_score", 0) or 0
+            if home_score or away_score:
+                any_real_score = True
+            home_id = getattr(home_team, "team_id", None) if home_team not in (None, 0) else None
+            away_id = getattr(away_team, "team_id", None) if away_team not in (None, 0) else None
+            home_name = getattr(home_team, "team_name", "") if home_team not in (None, 0) else ""
+            away_name = getattr(away_team, "team_name", "") if away_team not in (None, 0) else ""
+            matchups.append({
+                "home_team_id": home_id,
+                "home_owner": owner_for(home_id, home_name) if home_id is not None else "BYE",
+                "home_score": round(home_score, 1),
+                "away_team_id": away_id,
+                "away_owner": owner_for(away_id, away_name) if away_id is not None else "BYE",
+                "away_score": round(away_score, 1),
+                "type": matchup_type_label(bs),
+            })
+        if any_real_score:
+            weeks.append({"week": week, "matchups": matchups})
+    return weeks
+
+
 def main():
     espn_s2 = os.environ.get("ESPN_S2")
     swid = os.environ.get("SWID")
@@ -42,9 +94,7 @@ def main():
     # --- Standings ---
     standings = []
     for team in league.teams:
-        owner = TEAM_ID_TO_OWNER.get(
-            team.team_id, f"UNMAPPED (ESPN team #{team.team_id}: {team.team_name})"
-        )
+        owner = owner_for(team.team_id, team.team_name)
         standings.append({
             "team_id": team.team_id,
             "owner": owner,
@@ -81,17 +131,23 @@ def main():
     except Exception as e:
         print(f"Warning: could not fetch transactions ({e}). Continuing with standings only.")
 
+    # --- Weekly box scores (feeds the 2026 Scoreboard section) ---
+    current_week = getattr(league, "current_week", 0) or 0
+    weekly_scores = fetch_weekly_scores(league, current_week)
+
     data = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "current_week": getattr(league, "current_week", 0),
+        "current_week": current_week,
         "standings": standings,
         "transactions": transactions,
+        "weekly_scores": weekly_scores,
     }
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Wrote {OUTPUT_FILE}: {len(standings)} teams, {len(transactions)} recent transactions.")
+    print(f"Wrote {OUTPUT_FILE}: {len(standings)} teams, {len(transactions)} recent transactions, "
+          f"{len(weekly_scores)} weeks of box scores.")
 
     unmapped = [s for s in standings if s["owner"].startswith("UNMAPPED")]
     if unmapped:
