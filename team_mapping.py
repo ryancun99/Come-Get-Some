@@ -8,16 +8,16 @@
 # owner, fill in the dict below, commit, and every future run will use the right names.
 
 TEAM_ID_TO_OWNER = {
-    # 1: "Ryan Cunningham",
-    # 2: "Hanew Alhayek",
-    # 3: "Daniel Jimenez",
-    # 4: "Dom Belli",
-    # 5: "Al Rucc",
-    # 6: "Justin Eveland",
-    # 7: "Bobby Lupo",
-    # 8: "Chris Dietz",
-    # 9: "Jonathan Lee",
-    # 10: "Nicholas Gargiulo & Kevin Crown",
-    # 11: "ryan grzymala",
-    # 12: "Dan Marinos",
+    1: "Ryan Cunningham",
+    2: "Dan Marinos",
+    3: "Chris Dietz",
+    5: "ryan grzymala",
+    6: "Nicholas Gargiulo & Kevin Crown",
+    7: "Daniel Jimenez",
+    8: "Bobby Lupo",
+    9: "Jonathan Lee",
+    10: "Dom Belli",
+    12: "Justin Eveland",
+    13: "Hanew Alhayek",
+    14: "Al Rucc",
 }
