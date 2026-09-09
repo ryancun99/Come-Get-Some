@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T01:45:07.434563+00:00",
+  "generated_at": "2026-09-09T11:05:24.596398+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -15,7 +15,7 @@
     {
       "team_id": 2,
       "owner": "Dan Marinos",
-      "espn_team_name": "Tate Expectations",
+      "espn_team_name": "Nice Tet",
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -123,5 +123,18 @@
       "pa": 0.0
     }
   ],
-  "transactions": []
+  "transactions": [
+    {
+      "date": "2026-09-09T07:10:28.260000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Vikings D/ST)"
+    },
+    {
+      "date": "2026-09-09T07:10:28.260000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(Lions D/ST)"
+    }
+  ]
 }
