@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:05:33.988326+00:00",
+  "generated_at": "2026-09-11T11:05:43.754234+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -65,7 +65,7 @@
     {
       "team_id": 8,
       "owner": "Bobby Lupo",
-      "espn_team_name": "Top Required",
+      "espn_team_name": "Wet Wetensteinberg",
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -177,10 +177,10 @@
         {
           "home_team_id": 7,
           "home_owner": "Daniel Jimenez",
-          "home_score": 5.6,
+          "home_score": 21.1,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 9.0,
+          "away_score": 10.0,
           "type": "regular"
         },
         {
@@ -189,7 +189,7 @@
           "home_score": 0,
           "away_team_id": 6,
           "away_owner": "Nicholas Gargiulo & Kevin Crown",
-          "away_score": 11.8,
+          "away_score": 28.7,
           "type": "regular"
         },
         {
@@ -198,22 +198,22 @@
           "home_score": 0,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 7.0,
+          "away_score": 19.4,
           "type": "regular"
         },
         {
           "home_team_id": 2,
           "home_owner": "Dan Marinos",
-          "home_score": 0,
+          "home_score": 15.2,
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
-          "away_score": 14.5,
+          "away_score": 20.1,
           "type": "regular"
         },
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 0,
+          "home_score": 14.8,
           "away_team_id": 9,
           "away_owner": "Jonathan Lee",
           "away_score": 7.8,
