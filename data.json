@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:05:07.751009+00:00",
+  "generated_at": "2026-09-14T11:05:39.865304+00:00",
   "current_week": 1,
   "standings": [
     {
@@ -15,7 +15,7 @@
     {
       "team_id": 2,
       "owner": "Dan Marinos",
-      "espn_team_name": "Nice Tet",
+      "espn_team_name": "Nice Tets",
       "wins": 0,
       "losses": 0,
       "ties": 0,
@@ -125,6 +125,12 @@
   ],
   "transactions": [
     {
+      "date": "2026-09-13T16:56:42.566000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "FA ADDED",
+      "player": "Player(Packers D/ST)"
+    },
+    {
       "date": "2026-09-10T03:44:55.086000+00:00",
       "owner": "Ryan Cunningham",
       "action": "FA ADDED",
@@ -168,55 +174,55 @@
         {
           "home_team_id": 12,
           "home_owner": "Justin Eveland",
-          "home_score": 40.2,
+          "home_score": 147.6,
           "away_team_id": 8,
           "away_owner": "Bobby Lupo",
-          "away_score": 0,
+          "away_score": 127.5,
           "type": "regular"
         },
         {
           "home_team_id": 7,
           "home_owner": "Daniel Jimenez",
-          "home_score": 21.1,
+          "home_score": 121.9,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 10.0,
+          "away_score": 92.6,
           "type": "regular"
         },
         {
           "home_team_id": 14,
           "home_owner": "Al Rucc",
-          "home_score": 0,
+          "home_score": 156.7,
           "away_team_id": 6,
           "away_owner": "Nicholas Gargiulo & Kevin Crown",
-          "away_score": 28.7,
+          "away_score": 90.1,
           "type": "regular"
         },
         {
           "home_team_id": 13,
           "home_owner": "Hanew Alhayek",
-          "home_score": 0,
+          "home_score": 120.8,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 19.4,
+          "away_score": 95.3,
           "type": "regular"
         },
         {
           "home_team_id": 2,
           "home_owner": "Dan Marinos",
-          "home_score": 15.2,
+          "home_score": 132.4,
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
-          "away_score": 20.1,
+          "away_score": 74.4,
           "type": "regular"
         },
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 14.8,
+          "home_score": 121.3,
           "away_team_id": 9,
           "away_owner": "Jonathan Lee",
-          "away_score": 7.8,
+          "away_score": 134.0,
           "type": "regular"
         }
       ]
