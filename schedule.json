@@ -1,0 +1,540 @@
+{
+  "generated_at": "2026-09-16T00:48:25.555348+00:00",
+  "league_id": 375325,
+  "year": 2026,
+  "regular_season_weeks": 14,
+  "weeks": {
+    "1": [
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      }
+    ],
+    "2": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      }
+    ],
+    "3": [
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      }
+    ],
+    "4": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      }
+    ],
+    "5": [
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      }
+    ],
+    "6": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      }
+    ],
+    "7": [
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      }
+    ],
+    "8": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      }
+    ],
+    "9": [
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      }
+    ],
+    "10": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      },
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      }
+    ],
+    "11": [
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      }
+    ],
+    "12": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 6,
+        "home_owner": "Nicholas Gargiulo & Kevin Crown",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 10,
+        "away_owner": "Dom Belli"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      }
+    ],
+    "13": [
+      {
+        "home_team_id": 3,
+        "home_owner": "Chris Dietz",
+        "away_team_id": 8,
+        "away_owner": "Bobby Lupo"
+      },
+      {
+        "home_team_id": 7,
+        "home_owner": "Daniel Jimenez",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 13,
+        "home_owner": "Hanew Alhayek",
+        "away_team_id": 2,
+        "away_owner": "Dan Marinos"
+      },
+      {
+        "home_team_id": 14,
+        "home_owner": "Al Rucc",
+        "away_team_id": 1,
+        "away_owner": "Ryan Cunningham"
+      },
+      {
+        "home_team_id": 9,
+        "home_owner": "Jonathan Lee",
+        "away_team_id": 12,
+        "away_owner": "Justin Eveland"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 5,
+        "away_owner": "ryan grzymala"
+      }
+    ],
+    "14": [
+      {
+        "home_team_id": 8,
+        "home_owner": "Bobby Lupo",
+        "away_team_id": 6,
+        "away_owner": "Nicholas Gargiulo & Kevin Crown"
+      },
+      {
+        "home_team_id": 2,
+        "home_owner": "Dan Marinos",
+        "away_team_id": 3,
+        "away_owner": "Chris Dietz"
+      },
+      {
+        "home_team_id": 1,
+        "home_owner": "Ryan Cunningham",
+        "away_team_id": 7,
+        "away_owner": "Daniel Jimenez"
+      },
+      {
+        "home_team_id": 12,
+        "home_owner": "Justin Eveland",
+        "away_team_id": 13,
+        "away_owner": "Hanew Alhayek"
+      },
+      {
+        "home_team_id": 5,
+        "home_owner": "ryan grzymala",
+        "away_team_id": 14,
+        "away_owner": "Al Rucc"
+      },
+      {
+        "home_team_id": 10,
+        "home_owner": "Dom Belli",
+        "away_team_id": 9,
+        "away_owner": "Jonathan Lee"
+      }
+    ]
+  }
+}
