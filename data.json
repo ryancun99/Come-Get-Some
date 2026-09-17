@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:05:48.354877+00:00",
+  "generated_at": "2026-09-17T11:05:29.871403+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-09-16T14:38:19.738000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Emmett Johnson)"
+    },
+    {
+      "date": "2026-09-16T12:55:32.842000+00:00",
+      "owner": "Al Rucc",
+      "action": "FA ADDED",
+      "player": "Player(Dontayvion Wicks)"
+    },
+    {
+      "date": "2026-09-16T12:26:48.982000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Chris Brooks)"
+    },
     {
       "date": "2026-09-16T10:06:18.142000+00:00",
       "owner": "ryan grzymala",
