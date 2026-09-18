@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:05:29.871403+00:00",
+  "generated_at": "2026-09-18T11:05:32.340339+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -313,6 +313,65 @@
           "away_team_id": 9,
           "away_owner": "Jonathan Lee",
           "away_score": 157.9,
+          "type": "regular"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "matchups": [
+        {
+          "home_team_id": 8,
+          "home_owner": "Bobby Lupo",
+          "home_score": 8.0,
+          "away_team_id": 3,
+          "away_owner": "Chris Dietz",
+          "away_score": 68.7,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 6,
+          "home_owner": "Nicholas Gargiulo & Kevin Crown",
+          "home_score": 0,
+          "away_team_id": 7,
+          "away_owner": "Daniel Jimenez",
+          "away_score": -0.1,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 2,
+          "home_owner": "Dan Marinos",
+          "home_score": 0,
+          "away_team_id": 13,
+          "away_owner": "Hanew Alhayek",
+          "away_score": 45.8,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 1,
+          "home_owner": "Ryan Cunningham",
+          "home_score": 0,
+          "away_team_id": 14,
+          "away_owner": "Al Rucc",
+          "away_score": 37.8,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 12,
+          "home_owner": "Justin Eveland",
+          "home_score": 0,
+          "away_team_id": 9,
+          "away_owner": "Jonathan Lee",
+          "away_score": 35.2,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 5,
+          "home_owner": "ryan grzymala",
+          "home_score": 0,
+          "away_team_id": 10,
+          "away_owner": "Dom Belli",
+          "away_score": 17.2,
           "type": "regular"
         }
       ]
