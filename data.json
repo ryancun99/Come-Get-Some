@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:05:32.340339+00:00",
+  "generated_at": "2026-09-19T11:04:53.119998+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -124,6 +124,12 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-09-18T15:59:22.911000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Alvin Kamara)"
+    },
     {
       "date": "2026-09-16T14:38:19.738000+00:00",
       "owner": "Hanew Alhayek",
