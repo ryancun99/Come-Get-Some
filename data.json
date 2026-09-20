@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:04:53.119998+00:00",
+  "generated_at": "2026-09-20T11:05:11.456982+00:00",
   "current_week": 2,
   "standings": [
     {
@@ -124,6 +124,18 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-09-20T07:32:41.143000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Rashid Shaheed)"
+    },
+    {
+      "date": "2026-09-20T07:32:41.143000+00:00",
+      "owner": "ryan grzymala",
+      "action": "WAIVER ADDED",
+      "player": "Player(Alvin Kamara)"
+    },
     {
       "date": "2026-09-18T15:59:22.911000+00:00",
       "owner": "Jonathan Lee",
