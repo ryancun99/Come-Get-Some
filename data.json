@@ -1,126 +1,126 @@
 {
-  "generated_at": "2026-09-21T11:05:26.464676+00:00",
-  "current_week": 2,
+  "generated_at": "2026-09-22T11:05:29.007713+00:00",
+  "current_week": 3,
   "standings": [
+    {
+      "team_id": 12,
+      "owner": "Justin Eveland",
+      "espn_team_name": "I Like It Sloppy",
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "pf": 275.6,
+      "pa": 237.2
+    },
+    {
+      "team_id": 10,
+      "owner": "Dom Belli",
+      "espn_team_name": "Shoulder Biters",
+      "wins": 2,
+      "losses": 0,
+      "ties": 0,
+      "pf": 238.6,
+      "pa": 215.7
+    },
     {
       "team_id": 14,
       "owner": "Al Rucc",
       "espn_team_name": "Bennie and the Jettas",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 166.8,
-      "pa": 90.1
+      "pf": 305.2,
+      "pa": 242.5
     },
     {
       "team_id": 9,
       "owner": "Jonathan Lee",
       "espn_team_name": "Amon-Ra Ra Rasputin",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 157.9,
-      "pa": 123.3
+      "pf": 267.6,
+      "pa": 247.6
     },
     {
-      "team_id": 12,
-      "owner": "Justin Eveland",
-      "espn_team_name": "I Like It Sloppy",
+      "team_id": 13,
+      "owner": "Hanew Alhayek",
+      "espn_team_name": "Nud Reaper",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 151.2,
-      "pa": 127.5
+      "pf": 267.5,
+      "pa": 249.6
+    },
+    {
+      "team_id": 1,
+      "owner": "Ryan Cunningham",
+      "espn_team_name": "Jerry's World",
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 260.4,
+      "pa": 270.7
     },
     {
       "team_id": 2,
       "owner": "Dan Marinos",
       "espn_team_name": "Nice Tets",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 132.4,
-      "pa": 108.1
+      "pf": 250.6,
+      "pa": 253.5
     },
     {
-      "team_id": 10,
-      "owner": "Dom Belli",
-      "espn_team_name": "Shoulder Biters",
+      "team_id": 3,
+      "owner": "Chris Dietz",
+      "espn_team_name": "Florham Park Dietz",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 131.4,
-      "pa": 122.0
+      "pf": 244.1,
+      "pa": 252.7
     },
     {
       "team_id": 7,
       "owner": "Daniel Jimenez",
       "espn_team_name": "Will law rob",
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "ties": 0,
-      "pf": 121.9,
-      "pa": 92.6
+      "pf": 198.7,
+      "pa": 201.0
+    },
+    {
+      "team_id": 6,
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "espn_team_name": "Hammer",
+      "wins": 1,
+      "losses": 1,
+      "ties": 0,
+      "pf": 198.5,
+      "pa": 243.6
     },
     {
       "team_id": 8,
       "owner": "Bobby Lupo",
       "espn_team_name": "Wet Wetensteinberg",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "pf": 127.5,
-      "pa": 151.2
+      "pf": 258.3,
+      "pa": 302.7
     },
     {
       "team_id": 5,
       "owner": "ryan grzymala",
       "espn_team_name": "Federal Burrow of Investigation",
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
-      "pf": 123.3,
-      "pa": 157.9
-    },
-    {
-      "team_id": 13,
-      "owner": "Hanew Alhayek",
-      "espn_team_name": "Nud Reaper",
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "pf": 122.0,
-      "pa": 131.4
-    },
-    {
-      "team_id": 1,
-      "owner": "Ryan Cunningham",
-      "espn_team_name": "Jerry's World",
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "pf": 108.1,
-      "pa": 132.4
-    },
-    {
-      "team_id": 3,
-      "owner": "Chris Dietz",
-      "espn_team_name": "Florham Park Dietz",
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "pf": 92.6,
-      "pa": 121.9
-    },
-    {
-      "team_id": 6,
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "espn_team_name": "Hammer",
-      "wins": 0,
-      "losses": 1,
-      "ties": 0,
-      "pf": 90.1,
-      "pa": 166.8
+      "pf": 216.9,
+      "pa": 265.1
     }
   ],
   "transactions": [
@@ -356,16 +356,16 @@
           "home_score": 130.8,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 140.5,
+          "away_score": 151.5,
           "type": "regular"
         },
         {
           "home_team_id": 6,
           "home_owner": "Nicholas Gargiulo & Kevin Crown",
-          "home_score": 98.9,
+          "home_score": 108.4,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 61.1,
+          "away_score": 76.8,
           "type": "regular"
         },
         {
@@ -380,7 +380,7 @@
         {
           "home_team_id": 1,
           "home_owner": "Ryan Cunningham",
-          "home_score": 104.6,
+          "home_score": 152.4,
           "away_team_id": 14,
           "away_owner": "Al Rucc",
           "away_score": 138.4,
@@ -398,10 +398,10 @@
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 89.6,
+          "home_score": 93.7,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 102.2,
+          "away_score": 107.2,
           "type": "regular"
         }
       ]
