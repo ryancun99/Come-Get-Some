@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:05:59.050743+00:00",
+  "generated_at": "2026-09-30T11:06:45.151085+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -124,6 +124,90 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-09-30T10:22:32.803000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "FA ADDED",
+      "player": "Player(Darren Waller)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(Kendre Miller)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Chiefs D/ST)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "WAIVER ADDED",
+      "player": "Player(Mike Washington Jr.)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(Bears D/ST)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "ryan grzymala",
+      "action": "WAIVER ADDED",
+      "player": "Player(Packers D/ST)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "WAIVER ADDED",
+      "player": "Player(Kalif Raymond)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Dan Marinos",
+      "action": "DROPPED",
+      "player": "Player(Chris Bell)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Dan Marinos",
+      "action": "WAIVER ADDED",
+      "player": "Player(Jaylen Wright)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Chris Dietz",
+      "action": "WAIVER ADDED",
+      "player": "Player(Ollie Gordon II)"
+    },
+    {
+      "date": "2026-09-30T07:21:05.069000+00:00",
+      "owner": "Chris Dietz",
+      "action": "DROPPED",
+      "player": "Player(Jerry Jeudy)"
+    },
+    {
+      "date": "2026-09-30T00:13:52.415000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "DROPPED",
+      "player": "Player(Emanuel Wilson)"
+    },
+    {
+      "date": "2026-09-29T16:39:35.408000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Kaleb Johnson)"
+    },
+    {
+      "date": "2026-09-29T11:41:08.295000+00:00",
+      "owner": "Dan Marinos",
+      "action": "DROPPED",
+      "player": "Player(De'Von Achane)"
+    },
     {
       "date": "2026-09-29T09:49:15.318000+00:00",
       "owner": "ryan grzymala",
@@ -465,30 +549,6 @@
       "owner": "Ryan Cunningham",
       "action": "DROPPED",
       "player": "Player(Jalen Nailor)"
-    },
-    {
-      "date": "2026-09-09T20:12:30.970000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "FA ADDED",
-      "player": "Player(Michael Mayer)"
-    },
-    {
-      "date": "2026-09-09T20:12:30.970000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "DROPPED",
-      "player": "Player(Tyrone Tracy Jr.)"
-    },
-    {
-      "date": "2026-09-09T07:10:28.260000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Vikings D/ST)"
-    },
-    {
-      "date": "2026-09-09T07:10:28.260000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "WAIVER ADDED",
-      "player": "Player(Lions D/ST)"
     }
   ],
   "weekly_scores": [
