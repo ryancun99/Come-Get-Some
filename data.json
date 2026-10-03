@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:05:58.774598+00:00",
+  "generated_at": "2026-10-03T12:00:19.747097+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -124,6 +124,18 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-02T20:03:27.459000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "FA ADDED",
+      "player": "Player(Emanuel Wilson)"
+    },
+    {
+      "date": "2026-10-02T20:03:27.459000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Jonathon Brooks)"
+    },
     {
       "date": "2026-10-01T01:50:37.683000+00:00",
       "owner": "Bobby Lupo",
@@ -513,12 +525,6 @@
       "owner": "Al Rucc",
       "action": "FA ADDED",
       "player": "Player(Dontayvion Wicks)"
-    },
-    {
-      "date": "2026-09-16T12:26:48.982000+00:00",
-      "owner": "Justin Eveland",
-      "action": "FA ADDED",
-      "player": "Player(Chris Brooks)"
     }
   ],
   "weekly_scores": [
