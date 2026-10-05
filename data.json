@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:21:40.265036+00:00",
+  "generated_at": "2026-10-05T11:07:38.778009+00:00",
   "current_week": 4,
   "standings": [
     {
@@ -711,55 +711,55 @@
         {
           "home_team_id": 8,
           "home_owner": "Bobby Lupo",
-          "home_score": 47.1,
+          "home_score": 86.3,
           "away_team_id": 2,
           "away_owner": "Dan Marinos",
-          "away_score": 18.8,
+          "away_score": 133.6,
           "type": "regular"
         },
         {
           "home_team_id": 1,
           "home_owner": "Ryan Cunningham",
-          "home_score": 13.9,
+          "home_score": 119.7,
           "away_team_id": 6,
           "away_owner": "Nicholas Gargiulo & Kevin Crown",
-          "away_score": 28.7,
+          "away_score": 128.0,
           "type": "regular"
         },
         {
           "home_team_id": 12,
           "home_owner": "Justin Eveland",
-          "home_score": 36.1,
+          "home_score": 128.0,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 15.1,
+          "away_score": 126.8,
           "type": "regular"
         },
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 39.1,
+          "home_score": 145.7,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 18.6,
+          "away_score": 82.1,
           "type": "regular"
         },
         {
           "home_team_id": 10,
           "home_owner": "Dom Belli",
-          "home_score": 1.6,
+          "home_score": 163.9,
           "away_team_id": 13,
           "away_owner": "Hanew Alhayek",
-          "away_score": 30.0,
+          "away_score": 116.6,
           "type": "regular"
         },
         {
           "home_team_id": 9,
           "home_owner": "Jonathan Lee",
-          "home_score": 21.3,
+          "home_score": 129.3,
           "away_team_id": 14,
           "away_owner": "Al Rucc",
-          "away_score": 10.9,
+          "away_score": 108.2,
           "type": "regular"
         }
       ]
