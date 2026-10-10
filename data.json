@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:07:28.676623+00:00",
+  "generated_at": "2026-10-10T16:03:45.541304+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -124,6 +124,42 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-09T21:58:40.874000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "FA ADDED",
+      "player": "Player(Antonio Williams)"
+    },
+    {
+      "date": "2026-10-09T17:36:48.970000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Sam Darnold)"
+    },
+    {
+      "date": "2026-10-09T17:36:48.970000+00:00",
+      "owner": "Dom Belli",
+      "action": "FA ADDED",
+      "player": "Player(Aaron Rodgers)"
+    },
+    {
+      "date": "2026-10-09T12:36:16.121000+00:00",
+      "owner": "Dan Marinos",
+      "action": "FA ADDED",
+      "player": "Player(MarShawn Lloyd)"
+    },
+    {
+      "date": "2026-10-09T12:35:14.438000+00:00",
+      "owner": "Al Rucc",
+      "action": "DROPPED",
+      "player": "Player(Pat Freiermuth)"
+    },
+    {
+      "date": "2026-10-09T12:35:14.438000+00:00",
+      "owner": "Al Rucc",
+      "action": "FA ADDED",
+      "player": "Player(Mike Gesicki)"
+    },
     {
       "date": "2026-10-09T07:48:43.242000+00:00",
       "owner": "Hanew Alhayek",
@@ -483,30 +519,6 @@
       "owner": "Bobby Lupo",
       "action": "DROPPED",
       "player": "Player(Emanuel Wilson)"
-    },
-    {
-      "date": "2026-09-29T16:39:35.408000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Kaleb Johnson)"
-    },
-    {
-      "date": "2026-09-29T11:41:08.295000+00:00",
-      "owner": "Dan Marinos",
-      "action": "DROPPED",
-      "player": "Player(De'Von Achane)"
-    },
-    {
-      "date": "2026-09-29T09:49:15.318000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Panthers D/ST)"
-    },
-    {
-      "date": "2026-09-27T15:48:12.802000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "FA ADDED",
-      "player": "Player(Malik Washington)"
     }
   ],
   "weekly_scores": [
