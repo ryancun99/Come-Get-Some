@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:03:45.541304+00:00",
+  "generated_at": "2026-10-11T16:28:27.379083+00:00",
   "current_week": 5,
   "standings": [
     {
@@ -124,6 +124,36 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-11T13:51:29.286000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "FA ADDED",
+      "player": "Player(Kyler Murray)"
+    },
+    {
+      "date": "2026-10-11T13:51:29.286000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Justin Herbert)"
+    },
+    {
+      "date": "2026-10-11T13:26:03.648000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Tre' Harris)"
+    },
+    {
+      "date": "2026-10-11T13:21:03.705000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "FA ADDED",
+      "player": "Player(49ers D/ST)"
+    },
+    {
+      "date": "2026-10-11T13:21:03.705000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Bears D/ST)"
+    },
     {
       "date": "2026-10-09T21:58:40.874000+00:00",
       "owner": "Bobby Lupo",
@@ -489,36 +519,6 @@
       "owner": "Bobby Lupo",
       "action": "WAIVER ADDED",
       "player": "Player(Kalif Raymond)"
-    },
-    {
-      "date": "2026-09-30T07:21:05.069000+00:00",
-      "owner": "Dan Marinos",
-      "action": "DROPPED",
-      "player": "Player(Chris Bell)"
-    },
-    {
-      "date": "2026-09-30T07:21:05.069000+00:00",
-      "owner": "Dan Marinos",
-      "action": "WAIVER ADDED",
-      "player": "Player(Jaylen Wright)"
-    },
-    {
-      "date": "2026-09-30T07:21:05.069000+00:00",
-      "owner": "Chris Dietz",
-      "action": "WAIVER ADDED",
-      "player": "Player(Ollie Gordon II)"
-    },
-    {
-      "date": "2026-09-30T07:21:05.069000+00:00",
-      "owner": "Chris Dietz",
-      "action": "DROPPED",
-      "player": "Player(Jerry Jeudy)"
-    },
-    {
-      "date": "2026-09-30T00:13:52.415000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Emanuel Wilson)"
     }
   ],
   "weekly_scores": [
@@ -767,7 +767,7 @@
           "home_score": 14.2,
           "away_team_id": 8,
           "away_owner": "Bobby Lupo",
-          "away_score": 40.5,
+          "away_score": 44.5,
           "type": "regular"
         },
         {
@@ -794,16 +794,16 @@
           "home_score": 0,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 28.0,
+          "away_score": 36.1,
           "type": "regular"
         },
         {
           "home_team_id": 7,
           "home_owner": "Daniel Jimenez",
-          "home_score": 0,
+          "home_score": 20.3,
           "away_team_id": 9,
           "away_owner": "Jonathan Lee",
-          "away_score": 0,
+          "away_score": 5.7,
           "type": "regular"
         },
         {
@@ -812,7 +812,7 @@
           "home_score": 14.6,
           "away_team_id": 14,
           "away_owner": "Al Rucc",
-          "away_score": 0,
+          "away_score": 17.4,
           "type": "regular"
         }
       ]
