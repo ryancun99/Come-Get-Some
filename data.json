@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:00:06.359427+00:00",
+  "generated_at": "2026-10-18T14:13:01.937146+00:00",
   "current_week": 6,
   "standings": [
     {
@@ -124,6 +124,30 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-18T12:32:03.255000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Mark Andrews)"
+    },
+    {
+      "date": "2026-10-18T12:32:03.255000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Khalil Shakir)"
+    },
+    {
+      "date": "2026-10-17T19:34:11.542000+00:00",
+      "owner": "Chris Dietz",
+      "action": "FA ADDED",
+      "player": "Player(Jalen Royals)"
+    },
+    {
+      "date": "2026-10-17T19:34:11.542000+00:00",
+      "owner": "Chris Dietz",
+      "action": "DROPPED",
+      "player": "Player(Ray Davis)"
+    },
     {
       "date": "2026-10-16T20:02:51.688000+00:00",
       "owner": "Al Rucc",
@@ -627,30 +651,6 @@
       "owner": "Al Rucc",
       "action": "DROPPED",
       "player": "Player(Dontayvion Wicks)"
-    },
-    {
-      "date": "2026-10-07T12:34:54.765000+00:00",
-      "owner": "ryan grzymala",
-      "action": "FA ADDED",
-      "player": "Player(Cowboys D/ST)"
-    },
-    {
-      "date": "2026-10-07T12:34:54.765000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(49ers D/ST)"
-    },
-    {
-      "date": "2026-10-07T10:06:59.574000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Dalton Schultz)"
-    },
-    {
-      "date": "2026-10-07T10:06:59.574000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "FA ADDED",
-      "player": "Player(Brenton Strange)"
     }
   ],
   "weekly_scores": [
@@ -955,10 +955,10 @@
         {
           "home_team_id": 8,
           "home_owner": "Bobby Lupo",
-          "home_score": 0,
+          "home_score": 8.0,
           "away_team_id": 12,
           "away_owner": "Justin Eveland",
-          "away_score": 46.0,
+          "away_score": 51.2,
           "type": "regular"
         },
         {
@@ -973,7 +973,7 @@
         {
           "home_team_id": 10,
           "home_owner": "Dom Belli",
-          "home_score": 0,
+          "home_score": 1.4,
           "away_team_id": 2,
           "away_owner": "Dan Marinos",
           "away_score": 0,
@@ -991,7 +991,7 @@
         {
           "home_team_id": 14,
           "home_owner": "Al Rucc",
-          "home_score": 0,
+          "home_score": 3.9,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
           "away_score": 9.0,
@@ -1003,7 +1003,7 @@
           "home_score": 6.4,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 0,
+          "away_score": 13.4,
           "type": "regular"
         }
       ]
