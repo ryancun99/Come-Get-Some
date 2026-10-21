@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:30:31.399199+00:00",
+  "generated_at": "2026-10-21T15:46:57.720697+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -124,6 +124,162 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-21T14:05:35.916000+00:00",
+      "owner": "Al Rucc",
+      "action": "FA ADDED",
+      "player": "Player(Titans D/ST)"
+    },
+    {
+      "date": "2026-10-21T14:05:35.916000+00:00",
+      "owner": "Al Rucc",
+      "action": "DROPPED",
+      "player": "Player(Buccaneers D/ST)"
+    },
+    {
+      "date": "2026-10-21T10:05:54.451000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Adonai Mitchell)"
+    },
+    {
+      "date": "2026-10-21T10:05:54.451000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Michael Mayer)"
+    },
+    {
+      "date": "2026-10-21T09:59:47.138000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Konata Mumpfield)"
+    },
+    {
+      "date": "2026-10-21T09:59:47.138000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Hunter Henry)"
+    },
+    {
+      "date": "2026-10-21T08:11:05.662000+00:00",
+      "owner": "Daniel Jimenez",
+      "action": "FA ADDED",
+      "player": "Player(Harrison Butker)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "ryan grzymala",
+      "action": "WAIVER ADDED",
+      "player": "Player(Adonai Mitchell)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Dom Belli",
+      "action": "WAIVER ADDED",
+      "player": "Player(Chris Boswell)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Oronde Gadsden)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(49ers D/ST)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(J.J. McCarthy)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Chris Dietz",
+      "action": "WAIVER ADDED",
+      "player": "Player(Christian Kirk)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Chris Dietz",
+      "action": "DROPPED",
+      "player": "Player(Jalen Royals)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "ryan grzymala",
+      "action": "WAIVER ADDED",
+      "player": "Player(Khalil Shakir)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Najee Harris)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "WAIVER ADDED",
+      "player": "Player(Browns D/ST)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Dom Belli",
+      "action": "WAIVER ADDED",
+      "player": "Player(Tyrone Tracy Jr.)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Rashod Bateman)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(Colby Parkinson)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "WAIVER ADDED",
+      "player": "Player(Ryan Flournoy)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "DROPPED",
+      "player": "Player(Falcons D/ST)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "WAIVER ADDED",
+      "player": "Player(Jets D/ST)"
+    },
+    {
+      "date": "2026-10-21T07:51:40.433000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "WAIVER ADDED",
+      "player": "Player(Omar Cooper Jr.)"
+    },
+    {
+      "date": "2026-10-21T01:59:33.876000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Jayden Reed)"
+    },
+    {
+      "date": "2026-10-20T18:05:14.297000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "DROPPED",
+      "player": "Player(Jaguars D/ST)"
+    },
     {
       "date": "2026-10-20T12:45:20.437000+00:00",
       "owner": "Al Rucc",
@@ -555,144 +711,6 @@
       "owner": "Jonathan Lee",
       "action": "DROPPED",
       "player": "Player(Vikings D/ST)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Dom Belli",
-      "action": "DROPPED",
-      "player": "Player(Austin Ekeler)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Dom Belli",
-      "action": "WAIVER ADDED",
-      "player": "Player(Tyler Higbee)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Dan Marinos",
-      "action": "WAIVER ADDED",
-      "player": "Player(Germie Bernard)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Dan Marinos",
-      "action": "DROPPED",
-      "player": "Player(Joe Mixon)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "ryan grzymala",
-      "action": "WAIVER ADDED",
-      "player": "Player(Kirk Cousins)"
-    },
-    {
-      "date": "2026-10-13T18:20:39.328000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Baker Mayfield)"
-    },
-    {
-      "date": "2026-10-13T18:20:00.804000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Antonio Williams)"
-    },
-    {
-      "date": "2026-10-13T18:19:54.392000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Kalif Raymond)"
-    },
-    {
-      "date": "2026-10-13T12:49:59.418000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Mike Gesicki)"
-    },
-    {
-      "date": "2026-10-13T09:45:53.747000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Cowboys D/ST)"
-    },
-    {
-      "date": "2026-10-11T21:09:30.527000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "FA ADDED",
-      "player": "Player(Falcons D/ST)"
-    },
-    {
-      "date": "2026-10-11T16:36:43.612000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Wan'Dale Robinson)"
-    },
-    {
-      "date": "2026-10-11T13:51:29.286000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "FA ADDED",
-      "player": "Player(Kyler Murray)"
-    },
-    {
-      "date": "2026-10-11T13:51:29.286000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Justin Herbert)"
-    },
-    {
-      "date": "2026-10-11T13:26:03.648000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "FA ADDED",
-      "player": "Player(Tre' Harris)"
-    },
-    {
-      "date": "2026-10-11T13:21:03.705000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "FA ADDED",
-      "player": "Player(49ers D/ST)"
-    },
-    {
-      "date": "2026-10-11T13:21:03.705000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Bears D/ST)"
-    },
-    {
-      "date": "2026-10-09T21:58:40.874000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "FA ADDED",
-      "player": "Player(Antonio Williams)"
-    },
-    {
-      "date": "2026-10-09T17:36:48.970000+00:00",
-      "owner": "Dom Belli",
-      "action": "DROPPED",
-      "player": "Player(Sam Darnold)"
-    },
-    {
-      "date": "2026-10-09T17:36:48.970000+00:00",
-      "owner": "Dom Belli",
-      "action": "FA ADDED",
-      "player": "Player(Aaron Rodgers)"
-    },
-    {
-      "date": "2026-10-09T12:36:16.121000+00:00",
-      "owner": "Dan Marinos",
-      "action": "FA ADDED",
-      "player": "Player(MarShawn Lloyd)"
-    },
-    {
-      "date": "2026-10-09T12:35:14.438000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Pat Freiermuth)"
-    },
-    {
-      "date": "2026-10-09T12:35:14.438000+00:00",
-      "owner": "Al Rucc",
-      "action": "FA ADDED",
-      "player": "Player(Mike Gesicki)"
     }
   ],
   "weekly_scores": [
