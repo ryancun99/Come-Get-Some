@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:46:57.720697+00:00",
+  "generated_at": "2026-10-22T15:45:26.162431+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -124,6 +124,78 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-22T15:29:11.710000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "DROPPED",
+      "player": "Player(Cairo Santos)"
+    },
+    {
+      "date": "2026-10-22T15:29:11.710000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Dominic Zvada)"
+    },
+    {
+      "date": "2026-10-22T15:28:33.454000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "DROPPED",
+      "player": "Player(Colts D/ST)"
+    },
+    {
+      "date": "2026-10-22T15:28:33.454000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Panthers D/ST)"
+    },
+    {
+      "date": "2026-10-22T07:17:52.060000+00:00",
+      "owner": "Dom Belli",
+      "action": "WAIVER ADDED",
+      "player": "Player(49ers D/ST)"
+    },
+    {
+      "date": "2026-10-22T07:17:52.060000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Giants D/ST)"
+    },
+    {
+      "date": "2026-10-22T03:20:43.584000+00:00",
+      "owner": "Dan Marinos",
+      "action": "FA ADDED",
+      "player": "Player(Roschon Johnson)"
+    },
+    {
+      "date": "2026-10-22T03:20:43.584000+00:00",
+      "owner": "Dan Marinos",
+      "action": "DROPPED",
+      "player": "Player(Jaylen Wright)"
+    },
+    {
+      "date": "2026-10-21T16:36:22.014000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Jonah Coleman)"
+    },
+    {
+      "date": "2026-10-21T16:36:22.014000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Khalil Shakir)"
+    },
+    {
+      "date": "2026-10-21T16:19:02.210000+00:00",
+      "owner": "Chris Dietz",
+      "action": "DROPPED",
+      "player": "Player(Bo Nix)"
+    },
+    {
+      "date": "2026-10-21T16:18:47.388000+00:00",
+      "owner": "Chris Dietz",
+      "action": "FA ADDED",
+      "player": "Player(Baker Mayfield)"
+    },
     {
       "date": "2026-10-21T14:05:35.916000+00:00",
       "owner": "Al Rucc",
@@ -639,78 +711,6 @@
       "owner": "Bobby Lupo",
       "action": "FA ADDED",
       "player": "Player(Pat Freiermuth)"
-    },
-    {
-      "date": "2026-10-14T11:55:33.721000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Mark Andrews)"
-    },
-    {
-      "date": "2026-10-14T10:02:13.621000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Evan McPherson)"
-    },
-    {
-      "date": "2026-10-14T10:02:13.621000+00:00",
-      "owner": "ryan grzymala",
-      "action": "FA ADDED",
-      "player": "Player(Nick Folk)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Al Rucc",
-      "action": "WAIVER ADDED",
-      "player": "Player(Buccaneers D/ST)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Giants D/ST)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Jacoby Brissett)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "WAIVER ADDED",
-      "player": "Player(Dominic Zvada)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Rashid Shaheed)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Justin Eveland",
-      "action": "WAIVER ADDED",
-      "player": "Player(Wan'Dale Robinson)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Al Rucc",
-      "action": "WAIVER ADDED",
-      "player": "Player(Dameon Pierce)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "WAIVER ADDED",
-      "player": "Player(Chiefs D/ST)"
-    },
-    {
-      "date": "2026-10-14T07:36:54.809000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Vikings D/ST)"
     }
   ],
   "weekly_scores": [
