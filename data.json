@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:34:16.514083+00:00",
+  "generated_at": "2026-10-24T14:11:20.062225+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-24T04:01:13.167000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "FA ADDED",
+      "player": "Player(Ted Hurst III)"
+    },
+    {
+      "date": "2026-10-23T17:37:59.617000+00:00",
+      "owner": "Dan Marinos",
+      "action": "DROPPED",
+      "player": "Player(MarShawn Lloyd)"
+    },
+    {
+      "date": "2026-10-23T17:37:59.617000+00:00",
+      "owner": "Dan Marinos",
+      "action": "FA ADDED",
+      "player": "Player(Bam Knight)"
+    },
     {
       "date": "2026-10-23T14:57:33.592000+00:00",
       "owner": "ryan grzymala",
@@ -705,18 +723,6 @@
       "owner": "Daniel Jimenez",
       "action": "DROPPED",
       "player": "Player(Jets D/ST)"
-    },
-    {
-      "date": "2026-10-14T11:58:30.704000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "FA ADDED",
-      "player": "Player(DeMario Douglas)"
-    },
-    {
-      "date": "2026-10-14T11:55:43.626000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "FA ADDED",
-      "player": "Player(Jameis Winston)"
     }
   ],
   "weekly_scores": [
