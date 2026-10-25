@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T14:11:20.062225+00:00",
+  "generated_at": "2026-10-25T14:42:40.969959+00:00",
   "current_week": 7,
   "standings": [
     {
@@ -124,6 +124,36 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-25T13:13:38.431000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Cade Otton)"
+    },
+    {
+      "date": "2026-10-25T13:13:38.431000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Michael Mayer)"
+    },
+    {
+      "date": "2026-10-25T07:15:13.152000+00:00",
+      "owner": "Dom Belli",
+      "action": "WAIVER ADDED",
+      "player": "Player(Konata Mumpfield)"
+    },
+    {
+      "date": "2026-10-25T07:15:13.152000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Makai Lemon)"
+    },
+    {
+      "date": "2026-10-24T19:58:52.102000+00:00",
+      "owner": "Bobby Lupo",
+      "action": "FA ADDED",
+      "player": "Player(Jaylin Noel)"
+    },
     {
       "date": "2026-10-24T04:01:13.167000+00:00",
       "owner": "Ryan Cunningham",
@@ -645,84 +675,6 @@
       "owner": "Hanew Alhayek",
       "action": "DROPPED",
       "player": "Player(Tre' Harris)"
-    },
-    {
-      "date": "2026-10-14T14:30:06.435000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "FA ADDED",
-      "player": "Player(Colts D/ST)"
-    },
-    {
-      "date": "2026-10-14T14:30:06.435000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "DROPPED",
-      "player": "Player(Browns D/ST)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "TRADE_SENT",
-      "player": "Player(A.J. Brown)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(A.J. Brown)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "TRADE_SENT",
-      "player": "Player(Tre Tucker)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Tre Tucker)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "TRADE_SENT",
-      "player": "Player(Marvin Harrison Jr.)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Marvin Harrison Jr.)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "TRADE_SENT",
-      "player": "Player(Brenton Strange)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Brenton Strange)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "TRADE_SENT",
-      "player": "Player(Rashee Rice)"
-    },
-    {
-      "date": "2026-10-14T12:33:31.573000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Rashee Rice)"
-    },
-    {
-      "date": "2026-10-14T12:17:46.680000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "DROPPED",
-      "player": "Player(Jets D/ST)"
     }
   ],
   "weekly_scores": [
@@ -1095,10 +1047,10 @@
         {
           "home_team_id": 12,
           "home_owner": "Justin Eveland",
-          "home_score": 0,
+          "home_score": 7.6,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 37.0,
+          "away_score": 42.0,
           "type": "regular"
         },
         {
@@ -1113,10 +1065,10 @@
         {
           "home_team_id": 2,
           "home_owner": "Dan Marinos",
-          "home_score": 0,
+          "home_score": 9.6,
           "away_team_id": 14,
           "away_owner": "Al Rucc",
-          "away_score": 23.7,
+          "away_score": 29.3,
           "type": "regular"
         },
         {
@@ -1125,7 +1077,7 @@
           "home_score": 31.4,
           "away_team_id": 13,
           "away_owner": "Hanew Alhayek",
-          "away_score": 0,
+          "away_score": 12.9,
           "type": "regular"
         },
         {
@@ -1134,7 +1086,7 @@
           "home_score": 0,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 19.9,
+          "away_score": 25.8,
           "type": "regular"
         }
       ]
