@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:13:20.418302+00:00",
+  "generated_at": "2026-10-30T16:54:40.199681+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-30T01:49:05.517000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Tyrone Tracy Jr.)"
+    },
+    {
+      "date": "2026-10-30T01:49:05.517000+00:00",
+      "owner": "Dom Belli",
+      "action": "FA ADDED",
+      "player": "Player(Antonio Williams)"
+    },
+    {
+      "date": "2026-10-30T01:45:24.205000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Adonai Mitchell)"
+    },
     {
       "date": "2026-10-29T15:21:33.793000+00:00",
       "owner": "Hanew Alhayek",
@@ -579,18 +597,6 @@
       "owner": "Ryan Cunningham",
       "action": "DROPPED",
       "player": "Player(Jayden Reed)"
-    },
-    {
-      "date": "2026-10-20T18:05:14.297000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Jaguars D/ST)"
-    },
-    {
-      "date": "2026-10-20T12:45:20.437000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Kalif Raymond)"
     }
   ],
   "weekly_scores": [
@@ -1003,6 +1009,65 @@
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
           "away_score": 149.5,
+          "type": "regular"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "matchups": [
+        {
+          "home_team_id": 8,
+          "home_owner": "Bobby Lupo",
+          "home_score": 17.3,
+          "away_team_id": 10,
+          "away_owner": "Dom Belli",
+          "away_score": 0,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 9,
+          "home_owner": "Jonathan Lee",
+          "home_score": 20.9,
+          "away_team_id": 5,
+          "away_owner": "ryan grzymala",
+          "away_score": 23.2,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 14,
+          "home_owner": "Al Rucc",
+          "home_score": 0,
+          "away_team_id": 12,
+          "away_owner": "Justin Eveland",
+          "away_score": 0,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 13,
+          "home_owner": "Hanew Alhayek",
+          "home_score": 9.6,
+          "away_team_id": 1,
+          "away_owner": "Ryan Cunningham",
+          "away_score": 0,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 7,
+          "home_owner": "Daniel Jimenez",
+          "home_score": 0,
+          "away_team_id": 2,
+          "away_owner": "Dan Marinos",
+          "away_score": 29.1,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 3,
+          "home_owner": "Chris Dietz",
+          "home_score": 24.9,
+          "away_team_id": 6,
+          "away_owner": "Nicholas Gargiulo & Kevin Crown",
+          "away_score": 0,
           "type": "regular"
         }
       ]
