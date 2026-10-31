@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:54:40.199681+00:00",
+  "generated_at": "2026-10-31T15:55:27.815616+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -124,6 +124,12 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-10-30T18:18:55.389000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(J.J. McCarthy)"
+    },
     {
       "date": "2026-10-30T01:49:05.517000+00:00",
       "owner": "Dom Belli",
@@ -591,12 +597,6 @@
       "owner": "Bobby Lupo",
       "action": "WAIVER ADDED",
       "player": "Player(Omar Cooper Jr.)"
-    },
-    {
-      "date": "2026-10-21T01:59:33.876000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Jayden Reed)"
     }
   ],
   "weekly_scores": [
