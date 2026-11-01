@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T15:55:27.815616+00:00",
+  "generated_at": "2026-11-01T16:58:01.009127+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-01T15:34:29.337000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "FA ADDED",
+      "player": "Player(Mason Taylor)"
+    },
+    {
+      "date": "2026-11-01T15:34:29.337000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Colby Parkinson)"
+    },
+    {
+      "date": "2026-11-01T15:12:05.580000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Jaydon Blue)"
+    },
     {
       "date": "2026-10-30T18:18:55.389000+00:00",
       "owner": "Ryan Cunningham",
@@ -585,18 +603,6 @@
       "owner": "Nicholas Gargiulo & Kevin Crown",
       "action": "DROPPED",
       "player": "Player(Falcons D/ST)"
-    },
-    {
-      "date": "2026-10-21T07:51:40.433000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "WAIVER ADDED",
-      "player": "Player(Jets D/ST)"
-    },
-    {
-      "date": "2026-10-21T07:51:40.433000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "WAIVER ADDED",
-      "player": "Player(Omar Cooper Jr.)"
     }
   ],
   "weekly_scores": [
