@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:58:01.009127+00:00",
+  "generated_at": "2026-11-02T20:36:10.109631+00:00",
   "current_week": 8,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-01T19:12:15.354000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Treylon Burks)"
+    },
+    {
+      "date": "2026-11-01T19:12:15.354000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Jaydon Blue)"
+    },
+    {
+      "date": "2026-11-01T17:03:33.448000+00:00",
+      "owner": "Daniel Jimenez",
+      "action": "DROPPED",
+      "player": "Player(Texans D/ST)"
+    },
     {
       "date": "2026-11-01T15:34:29.337000+00:00",
       "owner": "Ryan Cunningham",
@@ -585,24 +603,6 @@
       "owner": "Dom Belli",
       "action": "DROPPED",
       "player": "Player(Rashod Bateman)"
-    },
-    {
-      "date": "2026-10-21T07:51:40.433000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "WAIVER ADDED",
-      "player": "Player(Colby Parkinson)"
-    },
-    {
-      "date": "2026-10-21T07:51:40.433000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "WAIVER ADDED",
-      "player": "Player(Ryan Flournoy)"
-    },
-    {
-      "date": "2026-10-21T07:51:40.433000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "DROPPED",
-      "player": "Player(Falcons D/ST)"
     }
   ],
   "weekly_scores": [
@@ -1025,55 +1025,55 @@
         {
           "home_team_id": 8,
           "home_owner": "Bobby Lupo",
-          "home_score": 17.3,
+          "home_score": 96.6,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 0,
+          "away_score": 106.3,
           "type": "regular"
         },
         {
           "home_team_id": 9,
           "home_owner": "Jonathan Lee",
-          "home_score": 20.9,
+          "home_score": 91.2,
           "away_team_id": 5,
           "away_owner": "ryan grzymala",
-          "away_score": 23.2,
+          "away_score": 157.2,
           "type": "regular"
         },
         {
           "home_team_id": 14,
           "home_owner": "Al Rucc",
-          "home_score": 0,
+          "home_score": 87.7,
           "away_team_id": 12,
           "away_owner": "Justin Eveland",
-          "away_score": 0,
+          "away_score": 58.1,
           "type": "regular"
         },
         {
           "home_team_id": 13,
           "home_owner": "Hanew Alhayek",
-          "home_score": 9.6,
+          "home_score": 154.7,
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
-          "away_score": 0,
+          "away_score": 108.4,
           "type": "regular"
         },
         {
           "home_team_id": 7,
           "home_owner": "Daniel Jimenez",
-          "home_score": 0,
+          "home_score": 120.4,
           "away_team_id": 2,
           "away_owner": "Dan Marinos",
-          "away_score": 29.1,
+          "away_score": 109.5,
           "type": "regular"
         },
         {
           "home_team_id": 3,
           "home_owner": "Chris Dietz",
-          "home_score": 24.9,
+          "home_score": 163.8,
           "away_team_id": 6,
           "away_owner": "Nicholas Gargiulo & Kevin Crown",
-          "away_score": 0,
+          "away_score": 87.0,
           "type": "regular"
         }
       ]
