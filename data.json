@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:21:20.772533+00:00",
+  "generated_at": "2026-11-05T18:24:48.952230+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -124,6 +124,24 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-05T14:39:21.349000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "DROPPED",
+      "player": "Player(Quentin Johnston)"
+    },
+    {
+      "date": "2026-11-05T14:39:21.349000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Mack Hollins)"
+    },
+    {
+      "date": "2026-11-05T08:47:39.841000+00:00",
+      "owner": "Dan Marinos",
+      "action": "WAIVER ADDED",
+      "player": "Player(Chiefs D/ST)"
+    },
     {
       "date": "2026-11-04T17:18:51.098000+00:00",
       "owner": "Dan Marinos",
@@ -573,30 +591,6 @@
       "owner": "Hanew Alhayek",
       "action": "FA ADDED",
       "player": "Player(Panthers D/ST)"
-    },
-    {
-      "date": "2026-10-22T07:17:52.060000+00:00",
-      "owner": "Dom Belli",
-      "action": "WAIVER ADDED",
-      "player": "Player(49ers D/ST)"
-    },
-    {
-      "date": "2026-10-22T07:17:52.060000+00:00",
-      "owner": "Dom Belli",
-      "action": "DROPPED",
-      "player": "Player(Giants D/ST)"
-    },
-    {
-      "date": "2026-10-22T03:20:43.584000+00:00",
-      "owner": "Dan Marinos",
-      "action": "FA ADDED",
-      "player": "Player(Roschon Johnson)"
-    },
-    {
-      "date": "2026-10-22T03:20:43.584000+00:00",
-      "owner": "Dan Marinos",
-      "action": "DROPPED",
-      "player": "Player(Jaylen Wright)"
     }
   ],
   "weekly_scores": [
