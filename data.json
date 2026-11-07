@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:46:26.516317+00:00",
+  "generated_at": "2026-11-07T16:41:58.329610+00:00",
   "current_week": 9,
   "standings": [
     {
@@ -124,6 +124,18 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-06T20:04:43.134000+00:00",
+      "owner": "Chris Dietz",
+      "action": "FA ADDED",
+      "player": "Player(Demarcus Robinson)"
+    },
+    {
+      "date": "2026-11-06T20:04:43.134000+00:00",
+      "owner": "Chris Dietz",
+      "action": "DROPPED",
+      "player": "Player(Darius Cooper)"
+    },
     {
       "date": "2026-11-06T11:15:56.945000+00:00",
       "owner": "ryan grzymala",
@@ -597,18 +609,6 @@
       "owner": "ryan grzymala",
       "action": "DROPPED",
       "player": "Player(Michael Mayer)"
-    },
-    {
-      "date": "2026-10-25T07:15:13.152000+00:00",
-      "owner": "Dom Belli",
-      "action": "WAIVER ADDED",
-      "player": "Player(Konata Mumpfield)"
-    },
-    {
-      "date": "2026-10-25T07:15:13.152000+00:00",
-      "owner": "Dom Belli",
-      "action": "DROPPED",
-      "player": "Player(Makai Lemon)"
     }
   ],
   "weekly_scores": [
