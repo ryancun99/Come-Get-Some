@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:19:17.991597+00:00",
+  "generated_at": "2026-11-14T16:48:36.927170+00:00",
   "current_week": 10,
   "standings": [
     {
@@ -124,6 +124,12 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-14T08:18:40.796000+00:00",
+      "owner": "ryan grzymala",
+      "action": "WAIVER ADDED",
+      "player": "Player(Malik Washington)"
+    },
     {
       "date": "2026-11-13T02:10:30.947000+00:00",
       "owner": "Hanew Alhayek",
@@ -555,12 +561,6 @@
       "owner": "Justin Eveland",
       "action": "WAIVER ADDED",
       "player": "Player(Jake Bates)"
-    },
-    {
-      "date": "2026-11-04T08:55:21.112000+00:00",
-      "owner": "ryan grzymala",
-      "action": "WAIVER ADDED",
-      "player": "Player(Mike Gesicki)"
     }
   ],
   "weekly_scores": [
