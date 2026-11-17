@@ -434,6 +434,202 @@
     .py{width:27px;}
   }
 
+
+  /* ============ ALL-TIME RANKINGS ============ */
+  .mode-btn .lbl-short{display:none;}
+  @media (max-width:640px){ .mode-btn .lbl-long{display:none;} .mode-btn .lbl-short{display:inline;} }
+  @media (max-width:520px){
+    nav.topnav{gap:10px;}
+    .mode-switch{max-width:100%; overflow-x:auto; scrollbar-width:none;}
+    .mode-switch::-webkit-scrollbar{display:none;}
+    .mode-btn{padding:7px 9px; font-size:10px; letter-spacing:0.03em; gap:5px;}
+  }
+  .hero.atr-hero{background:
+      radial-gradient(ellipse 620px 320px at 82% 30%, rgba(232,163,61,0.13), transparent 65%),
+      linear-gradient(180deg, rgba(232,163,61,0.04), transparent 70%);}
+  .atr-hero .wrap{display:flex; align-items:center; justify-content:space-between; gap:30px;}
+  .atr-hero .atr-seal{width:150px; height:150px; flex:none; opacity:0.95; filter:drop-shadow(0 10px 30px rgba(232,163,61,0.18));}
+  .atr-hero p.tag{max-width:600px; margin:20px 0 0; color:var(--ink-dim); font-size:16px;}
+  @media (max-width:700px){ .atr-hero .atr-seal{display:none;} }
+
+  .atr-toolbar{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:14px; margin-bottom:22px;}
+  .atr-seg{display:inline-flex; background:var(--bg-2); border:1px solid var(--line-strong); border-radius:999px; padding:3px; gap:3px;}
+  .atr-seg button{appearance:none; border:none; background:transparent; color:var(--muted); cursor:pointer;
+    font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase;
+    padding:8px 14px; border-radius:999px; white-space:nowrap;}
+  .atr-seg button:hover{color:var(--ink);}
+  .atr-seg button.active{background:var(--amber); color:#1a0e06;}
+  .atr-span{font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted);}
+
+  /* No. 1 spotlight */
+  .atr-spot{position:relative; overflow:hidden; border:1px solid rgba(232,163,61,0.45); border-radius:10px;
+    background:linear-gradient(120deg, rgba(232,163,61,0.16) 0%, rgba(232,163,61,0.04) 38%, var(--bg-1) 70%);
+    display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); gap:28px; padding:30px 32px; margin-bottom:26px;}
+  .atr-spot::after{content:''; position:absolute; right:-60px; top:-60px; width:260px; height:260px; border-radius:50%;
+    border:1px solid rgba(232,163,61,0.16); box-shadow:0 0 0 26px rgba(232,163,61,0.04), 0 0 0 52px rgba(232,163,61,0.025); pointer-events:none;}
+  .atr-spot-tag{display:inline-flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:10.5px; font-weight:700;
+    letter-spacing:0.2em; text-transform:uppercase; color:#1a0e06; background:var(--amber); padding:5px 11px; border-radius:3px;}
+  .atr-spot-name{font-family:'Bebas Neue',sans-serif; font-size:clamp(40px,6vw,64px); line-height:0.95; margin:16px 0 6px; color:var(--ink);}
+  .atr-spot-name button{all:unset; cursor:pointer;}
+  .atr-spot-name button:hover{color:var(--amber-bright);}
+  .atr-spot-meta{font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--ink-dim); letter-spacing:0.06em;}
+  .atr-spot-rating{display:flex; align-items:baseline; gap:12px; margin-top:20px;}
+  .atr-spot-rating .num{font-family:'Bebas Neue',sans-serif; font-size:clamp(64px,9vw,96px); line-height:0.85; color:var(--amber-bright);}
+  .atr-spot-rating .lbl{font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); line-height:1.5;}
+  .atr-spot-lead{margin-top:10px; font-size:13px; color:var(--ink-dim);}
+  .atr-split{margin-top:18px;}
+  .atr-split-bar{display:flex; height:9px; border-radius:5px; overflow:hidden; background:var(--bg-3);}
+  .atr-split-bar .rs{background:var(--amber);}
+  .atr-split-bar .po{background:var(--amber-bright); opacity:0.55;}
+  .atr-split-legend{display:flex; gap:16px; margin-top:8px; font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--muted); letter-spacing:0.05em; flex-wrap:wrap;}
+  .atr-split-legend i{display:inline-block; width:8px; height:8px; border-radius:2px; margin-right:6px; vertical-align:middle;}
+  .atr-kpis{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; align-content:center; position:relative; z-index:1;}
+  .atr-kpi{background:rgba(13,18,32,0.55); border:1px solid var(--line); border-radius:6px; padding:13px 14px;}
+  .atr-kpi .v{font-family:'JetBrains Mono',monospace; font-size:19px; font-weight:700; color:var(--ink); line-height:1.2;}
+  .atr-kpi .k{font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-top:4px;}
+  .atr-kpi .r{font-size:11px; color:var(--amber); margin-top:3px; font-family:'JetBrains Mono',monospace;}
+  @media (max-width:860px){ .atr-spot{grid-template-columns:1fr; padding:24px 20px;} }
+  @media (max-width:420px){ .atr-kpis{grid-template-columns:repeat(2,minmax(0,1fr));} }
+
+  /* Career table */
+  .atr-table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--bg-1); -webkit-overflow-scrolling:touch;}
+  table.atr-table{width:100%; border-collapse:separate; border-spacing:0; font-size:12.5px; min-width:1060px;}
+  .atr-table th{position:relative; text-align:right; font-family:'JetBrains Mono',monospace; font-size:9.5px; font-weight:600; letter-spacing:0.1em;
+    text-transform:uppercase; color:var(--muted); padding:12px 7px; border-bottom:1px solid var(--line-strong); white-space:normal; line-height:1.35; vertical-align:bottom; background:var(--bg-2); cursor:pointer; user-select:none;}
+  .atr-table thead tr:nth-child(2) th{max-width:72px;}
+  .atr-table thead tr:nth-child(2) th.sticky2{max-width:none;}
+  .atr-table th:hover{color:var(--ink);}
+  .atr-table th.sorted{color:var(--amber-bright);}
+  .atr-table th .arr{margin-left:3px; font-size:9px;}
+  .atr-table th.l, .atr-table td.l{text-align:left;}
+  .atr-table th.grp{cursor:default; text-align:center; font-size:9px; padding:8px 10px; color:var(--amber); border-bottom:1px solid var(--line);}
+  .atr-table th.grp.po{color:var(--amber-bright);}
+  .atr-table td{padding:11px 7px; border-bottom:1px solid var(--line); text-align:right; font-family:'JetBrains Mono',monospace; white-space:nowrap; background:var(--bg-1);}
+  .atr-table tr.atr-row{cursor:pointer;}
+  .atr-table tr.atr-row:hover td{background:#1a2133;}
+  .atr-table tr.atr-row.open td{background:#1b2336;}
+  .atr-table .sticky{position:sticky; left:0; z-index:2;}
+  .atr-table .sticky2{position:sticky; left:46px; z-index:2; box-shadow:1px 0 0 var(--line-strong);}
+  .atr-table th.sticky, .atr-table th.sticky2{z-index:3;}
+  .atr-table td.rk{width:46px; min-width:46px; text-align:center; font-family:'Bebas Neue',sans-serif; font-size:22px; color:var(--ink-dim);}
+  .atr-table tr.r1 td.rk{color:var(--amber-bright);}
+  .atr-table tr.r2 td.rk{color:#d5d9e2;}
+  .atr-table tr.r3 td.rk{color:#d49a6a;}
+  .atr-table tr.r1 td{background:linear-gradient(90deg, rgba(232,163,61,0.10), rgba(232,163,61,0.03));}
+  .atr-table tr.r1 td.sticky, .atr-table tr.r1 td.sticky2{background:#2a2a2a; background:#2a2620;}
+  .atr-mgr{display:flex; align-items:center; gap:10px; min-width:178px; max-width:220px;}
+  .atr-mgr .nm{white-space:normal;}
+  .atr-av{width:30px; height:30px; flex:none; border-radius:50%; background:var(--bg-3); color:var(--amber); display:flex; align-items:center; justify-content:center;
+    font-family:'JetBrains Mono',monospace; font-size:10px; font-weight:700; border:1px solid var(--line-strong);}
+  tr.r1 .atr-av{background:var(--amber); color:#1a0e06; border-color:var(--amber-bright);}
+  .atr-mgr .nm{font-family:'Manrope',sans-serif; font-weight:700; color:var(--ink); font-size:13.5px; line-height:1.2;}
+  .atr-mgr .sub{font-size:10.5px; color:var(--muted); margin-top:2px;}
+  .atr-alum{font-size:8.5px; letter-spacing:0.12em; color:var(--muted); border:1px solid var(--line-strong); border-radius:3px; padding:1px 4px; margin-left:6px; vertical-align:2px;}
+  .atr-rating{display:flex; align-items:center; gap:8px; justify-content:flex-end; min-width:116px;}
+  .atr-rating .n{font-family:'Bebas Neue',sans-serif; font-size:24px; color:var(--ink); min-width:46px; text-align:right; line-height:1;}
+  tr.r1 .atr-rating .n{color:var(--amber-bright);}
+  .atr-bar{width:58px; height:6px; background:var(--bg-3); border-radius:3px; overflow:hidden;}
+  .atr-bar i{display:block; height:100%; background:linear-gradient(90deg, var(--amber), var(--amber-bright)); border-radius:3px;}
+  .atr-table td.heat{position:relative;}
+  .atr-table td .best{color:var(--amber-bright); font-weight:700;}
+  .atr-table td .dim{color:var(--muted);}
+  .atr-chev{display:inline-block; color:var(--muted); font-size:10px; transition:transform .15s; margin-left:4px;}
+  tr.open .atr-chev{transform:rotate(90deg); color:var(--amber);}
+
+  /* Breakdown row */
+  .atr-table tr.atr-detail td{padding:0; background:#121828; white-space:normal; text-align:left; font-family:'Manrope',sans-serif;}
+  .atr-detail-inner{padding:22px 22px 24px; position:sticky; left:0; max-width:min(1180px, calc(100vw - 50px));}
+  .atr-detail-grid{display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:26px;}
+  @media (max-width:900px){ .atr-detail-grid{grid-template-columns:1fr;} }
+  .atr-comp{display:grid; grid-template-columns:150px 1fr 54px 64px; gap:10px; align-items:center; padding:7px 0; border-bottom:1px dashed var(--line); font-size:12.5px;}
+  .atr-comp:last-child{border-bottom:none;}
+  .atr-comp .c-name{color:var(--ink); font-weight:600;}
+  .atr-comp .c-name small{display:block; color:var(--muted); font-weight:500; font-size:10.5px; font-family:'JetBrains Mono',monospace;}
+  .atr-comp .c-bar{height:7px; background:var(--bg-3); border-radius:4px; overflow:hidden;}
+  .atr-comp .c-bar i{display:block; height:100%; background:var(--amber); border-radius:4px;}
+  .atr-comp.po .c-bar i{background:var(--amber-bright); opacity:0.7;}
+  .atr-comp .c-score, .atr-comp .c-pts{font-family:'JetBrains Mono',monospace; text-align:right; font-size:12px;}
+  .atr-comp .c-score{color:var(--ink-dim);}
+  .atr-comp .c-pts{color:var(--amber-bright); font-weight:700;}
+  .atr-comp-head{display:grid; grid-template-columns:150px 1fr 54px 64px; gap:10px; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); padding-bottom:6px; border-bottom:1px solid var(--line-strong);}
+  .atr-comp-head span:nth-child(n+3){text-align:right;}
+  .atr-comp-sub{font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--amber); margin:16px 0 4px;}
+  @media (max-width:560px){ .atr-comp, .atr-comp-head{grid-template-columns:110px 1fr 40px 50px; gap:7px;} }
+  .atr-yr-title{font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:10px;}
+  .atr-yrs{display:flex; flex-wrap:wrap; gap:6px;}
+  .atr-yr{width:70px; border-radius:5px; padding:7px 6px; text-align:center; background:var(--bg-2); border:1px solid var(--line);}
+  .atr-yr .y{font-family:'JetBrains Mono',monospace; font-size:10px; color:var(--muted);}
+  .atr-yr .f{font-family:'Bebas Neue',sans-serif; font-size:20px; line-height:1.05; color:var(--ink);}
+  .atr-yr .s{font-family:'JetBrains Mono',monospace; font-size:9px; color:var(--muted);}
+  .atr-yr.po{border-color:rgba(232,163,61,0.35);}
+  .atr-yr.champ{background:var(--amber); border-color:var(--amber-bright);}
+  .atr-yr.champ .y, .atr-yr.champ .f, .atr-yr.champ .s{color:#1a0e06;}
+  .atr-yr.miss .f{color:var(--muted);}
+  .atr-yr-key{display:flex; gap:14px; flex-wrap:wrap; margin-top:10px; font-size:10.5px; color:var(--muted); font-family:'JetBrains Mono',monospace;}
+  .atr-detail-actions{margin-top:16px;}
+  .atr-link{appearance:none; background:none; border:1px solid var(--line-strong); color:var(--ink-dim); border-radius:999px; padding:7px 14px; cursor:pointer;
+    font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase;}
+  .atr-link:hover{border-color:var(--amber); color:var(--amber-bright);}
+
+  .atr-unq{margin-top:18px; padding:14px 18px; border:1px dashed var(--line-strong); border-radius:6px; font-size:13px; color:var(--ink-dim);}
+  .atr-unq b{color:var(--ink);}
+  .atr-hint{font-size:12px; color:var(--muted); margin-top:12px; font-family:'JetBrains Mono',monospace;}
+
+  /* Individual leaderboards */
+  .atr-boards{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px;}
+  @media (max-width:980px){ .atr-boards{grid-template-columns:repeat(2,minmax(0,1fr));} }
+  @media (max-width:620px){ .atr-boards{grid-template-columns:1fr;} }
+  .atr-board{background:var(--bg-1); border:1px solid var(--line); border-radius:8px; overflow:hidden; display:flex; flex-direction:column;}
+  .atr-board-head{padding:16px 18px 14px; border-bottom:1px solid var(--line); background:linear-gradient(180deg, rgba(232,163,61,0.07), transparent);}
+  .atr-board-head .t{font-family:'Bebas Neue',sans-serif; font-size:21px; letter-spacing:0.03em; color:var(--ink);}
+  .atr-board-head .q{font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); margin-top:2px;}
+  .atr-leader{display:flex; align-items:center; gap:12px; padding:16px 18px; border-bottom:1px solid var(--line);}
+  .atr-leader .atr-av{width:38px; height:38px; font-size:11px; background:var(--amber); color:#1a0e06; border-color:var(--amber-bright);}
+  .atr-leader .who{flex:1; min-width:0;}
+  .atr-leader .who .nm{font-weight:800; color:var(--ink); font-size:14.5px; line-height:1.2;}
+  .atr-leader .who .sub{font-family:'JetBrains Mono',monospace; font-size:10.5px; color:var(--muted); margin-top:2px;}
+  .atr-leader .val{font-family:'Bebas Neue',sans-serif; font-size:36px; color:var(--amber-bright); line-height:1;}
+  .atr-board ol{list-style:none; margin:0; padding:6px 0; flex:1;}
+  .atr-board li{display:grid; grid-template-columns:30px 1fr auto; gap:8px; align-items:center; padding:7px 18px; font-size:13px;}
+  .atr-board li .p{font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--muted);}
+  .atr-board li .n{color:var(--ink-dim); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .atr-board li .n small{color:var(--muted); font-family:'JetBrains Mono',monospace; font-size:10px; margin-left:6px;}
+  .atr-board li .v{font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--ink); font-size:12.5px;}
+  .atr-board li.extra{display:none;}
+  .atr-board.expanded li.extra{display:grid;}
+  .atr-board li.zero .v, .atr-board li.zero .n{color:var(--muted); font-weight:500;}
+  .atr-board-foot{border-top:1px solid var(--line); padding:9px 18px; display:flex; justify-content:space-between; align-items:center; gap:10px;}
+  .atr-board-foot button{appearance:none; background:none; border:none; color:var(--amber); cursor:pointer; font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase; padding:4px 0;}
+  .atr-board-foot span{font-size:10.5px; color:var(--muted); font-family:'JetBrains Mono',monospace;}
+
+  /* Methodology */
+  .atr-method{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:24px; align-items:start;}
+  @media (max-width:900px){ .atr-method{grid-template-columns:1fr;} }
+  table.atr-mtable{width:100%; border-collapse:collapse; font-size:13px;}
+  .atr-mtable th{text-align:left; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); padding:11px 14px; border-bottom:1px solid var(--line-strong); background:var(--bg-2);}
+  .atr-mtable td{padding:11px 14px; border-bottom:1px solid var(--line); vertical-align:top; color:var(--ink-dim);}
+  .atr-mtable td.w{font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--amber-bright); white-space:nowrap;}
+  .atr-mtable td b{color:var(--ink); font-weight:700;}
+  .atr-mtable tr.grp td{background:rgba(232,163,61,0.06); font-family:'JetBrains Mono',monospace; font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--amber); padding:8px 14px;}
+  .atr-notes{background:var(--bg-1); border:1px solid var(--line); border-radius:8px; padding:20px 22px;}
+  .atr-notes h3{font-size:22px; margin-bottom:10px;}
+  .atr-notes ul{margin:0; padding-left:18px; color:var(--ink-dim); font-size:13px;}
+  .atr-notes li{margin-bottom:9px;}
+  .atr-notes li b{color:var(--ink);}
+
+  @media (max-width:700px){
+    .atr-table td.rk{width:34px; min-width:34px; font-size:19px; padding-left:4px; padding-right:4px;}
+    .atr-table .sticky2{left:34px;}
+    .atr-mgr{min-width:112px; max-width:130px; gap:0;}
+    .atr-mgr .atr-av{display:none;}
+    .atr-mgr .nm{font-size:12.5px;}
+    .atr-mgr .sub{font-size:9.5px;}
+    .atr-mgr .atr-chev{display:none;}
+    .atr-rating{min-width:0;}
+    .atr-rating .atr-bar{display:none;}
+    .atr-spot-name{font-size:42px;}
+  }
+  @media (max-width:380px){ .mode-btn{padding:7px 7px; font-size:9.5px; letter-spacing:0.02em;} }
   .view[hidden]{display:none;}
 </style>
 </head>
@@ -446,6 +642,7 @@
       <button class="mode-btn active" id="btn-main" onclick="setMode('main')">Main</button>
       <button class="mode-btn" id="btn-history" onclick="setMode('history')">History</button>
       <button class="mode-btn" id="btn-managers" onclick="setMode('managers')">Managers</button>
+      <button class="mode-btn" id="btn-rankings" onclick="setMode('rankings')"><span class="lbl-long">All-Time Rankings</span><span class="lbl-short">Rankings</span></button>
       <button class="mode-btn live" id="btn-live" onclick="setMode('live')"><span class="live-dot"></span>2026</button>
     </div>
   </nav>
@@ -458,6 +655,9 @@
     </div>
     <div class="subnav" id="subnav-managers" hidden>
       <a href="#managers-pick" onclick="mgrJump(event,'managers-pick')">Pick a manager</a><a href="#mgr-seasons" onclick="mgrJump(event,'mgr-seasons')">Seasons</a><a href="#mgr-h2h-sec" onclick="mgrJump(event,'mgr-h2h-sec')">Head-to-head</a><a href="#mgr-players" onclick="mgrJump(event,'mgr-players')">Repeat players</a>
+    </div>
+    <div class="subnav" id="subnav-rankings" hidden>
+      <a href="#atr-career" onclick="mgrJump(event,'atr-career')">Career rankings</a><a href="#atr-boards" onclick="mgrJump(event,'atr-boards')">Stat leaderboards</a><a href="#atr-method" onclick="mgrJump(event,'atr-method')">How it works</a>
     </div>
     <div class="subnav" id="subnav-live" hidden>
       <a href="#draft">Draft</a><a href="#scoreboard-live">Scoreboard</a><a href="#standings-live">Standings</a><a href="#transactions-live">Transactions</a><a href="#efficiency-live">Efficiency</a><a href="#waiver-live">Waiver ROI</a>
@@ -506,6 +706,30 @@
   <section class="block" id="managers-pick" style="border-bottom:none;"><div class="wrap" id="managers-content"></div></section>
 </section>
 
+<section id="view-rankings" class="view" hidden>
+  <section class="hero atr-hero">
+    <div class="wrap">
+      <div>
+        <div class="kicker" id="atr-hero-kicker">The official record</div>
+        <h1>All-time<br><span>rankings.</span></h1>
+        <p class="tag">Every manager, every completed season, one career rating. Built to reward the guys who show up every single year, not just the ones who got hot in December.</p>
+      </div>
+      <svg class="atr-seal" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CGS roundel">
+        <defs><path id="atr-ring" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/></defs>
+        <circle cx="100" cy="100" r="96" fill="#0E1A2B"/>
+        <circle cx="100" cy="100" r="88" fill="none" stroke="#E8A33D" stroke-width="1.5"/>
+        <circle cx="100" cy="100" r="60" fill="none" stroke="#E8A33D" stroke-width="1.5"/>
+        <text font-family="Bebas Neue" font-size="17" fill="#E8A33D" letter-spacing="3.2"><textPath href="#atr-ring">COME GET SOME ★ EST. 2015 ★ COME GET SOME ★ EST. 2015 ★</textPath></text>
+        <text x="100" y="118" text-anchor="middle" font-family="Bebas Neue" font-size="56" fill="#EDE7D8" letter-spacing="1">CGS</text>
+      </svg>
+    </div>
+  </section>
+
+  <section class="block" id="atr-career"><div class="wrap" id="atr-career-content"></div></section>
+  <section class="block" id="atr-boards"><div class="wrap" id="atr-boards-content"></div></section>
+  <section class="block" id="atr-method" style="border-bottom:none;"><div class="wrap" id="atr-method-content"></div></section>
+</section>
+
 <section id="view-live" class="view" hidden>
   <section class="hero live">
     <div class="wrap">
@@ -549,7 +773,7 @@ const DRAFT_HIST = {"generated_at": "2026-09-09T18:03:24.803001+00:00", "league_
 <script>
 /* ============ MODE SWITCH ============ */
 function setMode(mode){
-  const MODES = ['main', 'history', 'managers', 'live'];
+  const MODES = ['main', 'history', 'managers', 'rankings', 'live'];
   if (MODES.indexOf(mode) < 0) mode = 'main';
   MODES.forEach(m => {
     document.getElementById('view-' + m).hidden = mode !== m;
@@ -1379,7 +1603,7 @@ function mgrProfile(key){
   const h2h = mgrH2H(key, games);
   const sum = (arr, f) => arr.reduce((a, x) => a + f(x), 0);
   const w = sum(done, s => s.w), l = sum(done, s => s.l), t = sum(done, s => s.t);
-  const berthYears = done.filter(s => s.year >= 2016);
+  const berthYears = done.filter(s => s.year >= 2015);   // 8 playoff teams every season, 2015 included
   const playoffGames = h2h.mine.filter(g => g.type === 'playoff' && g.year < MGR_LIVE_YEAR);
   return {
     key, seasons, done, h2h, players: mgrPlayers(key),
@@ -1467,7 +1691,7 @@ function mgrProfileHtml(P){
     tile(c.titles.length ? `${c.titles.length}` : '0', c.titles.length ? 'Titles &middot; ' + c.titles.join(', ') : 'Titles', c.titles.length ? 'gold' : ''),
     tile(mgrRec(c.w, c.l, c.t), `Regular season &middot; ${mgrPctStr(c.pct)}`),
     tile(c.pw + c.pl ? mgrRec(c.pw, c.pl, 0) : '&ndash;', 'Playoff record &middot; 2019+'),
-    tile(c.berthOf ? `${c.berths}/${c.berthOf}` : '&ndash;', 'Playoff berths &middot; 2016+'),
+    tile(c.berthOf ? `${c.berths}/${c.berthOf}` : '&ndash;', 'Playoff berths &middot; 2015+'),
     tile(c.best ? mgrOrd(c.best) : '&ndash;', `Best finish &middot; avg ${c.avgFinish ? c.avgFinish.toFixed(1) : '-'}`),
     tile(Math.round(c.pf).toLocaleString(), `Career points for &middot; ${(c.pf / P.done.length).toFixed(0)}/season`)
   ].join('');
@@ -1611,6 +1835,465 @@ function mgrSetLive(data){
   if (MGR_CURRENT) selectManager(MGR_CURRENT, true);
 }
 
+/* ============ ALL-TIME RANKINGS ============ */
+/* Everything here is computed in the browser from the same embedded data the
+   Seasons and Managers tabs use: HISTORY.seasons (final standings, W-L, PF/PA,
+   champion flag), MATCHUPS (weekly scores, 2019+) and TEAM_OWNERS. Nothing is
+   hand-entered. A season is counted once its final standings (with a champion)
+   are in HISTORY.seasons, so new seasons flow in automatically.
+   All tunable numbers for the career rating live in ATR below. */
+
+const ATR = {
+  minSeasons: 4,              // completed seasons needed to qualify
+  playoffTrackFrom: 2015,     // playoff % / avg playoff finish counted from this season on (8 playoff teams every year)
+  defaultPlayoffSpots: 8,     // used when a season has no weekly playoff data to read the bracket size from
+  finishTop: [100, 90, 81, 73, 64, 58, 52, 46],   // regular-season seed 1..8 (playoff teams)
+  missTop: 22,                // best non-playoff seed; slides to 0 for last place
+  titleSteps: [0, 50, 80, 100],       // 0 / 1 / 2 / 3+ titles
+  appSteps: [0, 40, 65, 85, 100],     // 0 / 1 / 2 / 3 / 4+ title-game appearances
+  // PF and PA are scored in standard deviations from that season's league average: -1 SD = 0, +1 SD = 100
+  scales: { win: [0.30, 0.70], pf: [-1, 1], sos: [-1, 1], highMult: 2 },
+  // Ryan's weighting. Average regular-season finish gave 5 points to Points For (20/10 -> 15/15).
+  // Playoff % is earned in the regular season, so it sits on that side: 80 regular season / 20 playoffs.
+  weights: { win: 20, po: 15, finish: 15, pf: 15, sos: 10, high: 5, titles: 10, apps: 6, pofin: 4 }
+};
+const ATR_COMP = [
+  { id: 'win',    grp: 'rs', label: 'Win %' },
+  { id: 'po',     grp: 'rs', label: 'Playoff %' },
+  { id: 'finish', grp: 'rs', label: 'Regular-season finish' },
+  { id: 'pf',     grp: 'rs', label: 'Points for' },
+  { id: 'sos',    grp: 'rs', label: 'Strength of schedule' },
+  { id: 'high',   grp: 'rs', label: 'Weekly high scores' },
+  { id: 'titles', grp: 'po', label: 'Championships' },
+  { id: 'apps',   grp: 'po', label: 'Title-game appearances' },
+  { id: 'pofin',  grp: 'po', label: 'Avg. playoff finish' }
+];
+let ATR_POOL = 'current';
+let ATR_SORT = { col: 'rating', dir: -1 };
+let ATR_OPEN = null;
+let ATR_DATA = null;
+
+function atrKey(name){ return mgrKey(OWNER_ALIASES[name] || name); }
+function atrClamp(x){ return Math.max(0, Math.min(100, x)); }
+function atrLin(v, lo, hi){ return atrClamp((v - lo) / (hi - lo) * 100); }
+function atrSigned(idx){
+  const p = Math.round((idx - 1) * 1000) / 10;
+  return p === 0 ? '0.0%' : (p > 0 ? '+' : '\u2212') + Math.abs(p).toFixed(1) + '%';
+}
+function atrSd(z){ const v = Math.round(z * 100) / 100; return v === 0 ? '0.00' : (v > 0 ? '+' : '\u2212') + Math.abs(v).toFixed(2); }
+function atrFixed(v, d){ return v == null ? '\u2013' : v.toFixed(d); }
+function atrCompletedSeasons(){
+  return HISTORY.seasons.filter(s => s.standings && s.standings.length && s.standings.some(r => r.champion))
+    .slice().sort((a, b) => a.year - b.year);
+}
+/* Bracket size from the weekly data when it exists (every team that appears in a winners-bracket game) */
+function atrPlayoffSpots(year){
+  const y = MATCHUPS.years[String(year)];
+  const ids = new Set();
+  ((y && y.weeks) || []).forEach(w => w.matchups.forEach(m => {
+    if (m.type === 'playoff') { ids.add(m.home_team_id); ids.add(m.away_team_id); }
+  }));
+  return ids.size || ATR.defaultPlayoffSpots;
+}
+function atrFinishPts(seed, n, p){
+  if (seed <= p) return ATR.finishTop[Math.min(seed, ATR.finishTop.length) - 1];
+  const miss = n - p;
+  return miss > 1 ? ATR.missTop * (n - seed) / (miss - 1) : 0;
+}
+
+function atrCompute(){
+  const seasons = atrCompletedSeasons();
+  const M = {};
+  const get = k => M[k] || (M[k] = { key: k, rows: [], highs: 0, hsWeeks: 0 });
+  let hsFrom = null;
+  seasons.forEach(s => {
+    const st = s.standings.map(r => {
+      const [w, l, t] = r.record.split('-').map(Number);
+      return { ...r, w, l, t: t || 0 };
+    });
+    const n = st.length, P = atrPlayoffSpots(s.year);
+    const apf = st.reduce((a, r) => a + r.pf, 0) / n, apa = st.reduce((a, r) => a + r.pa, 0) / n;
+    const sdpf = Math.sqrt(st.reduce((a, r) => a + (r.pf - apf) ** 2, 0) / n) || 1;
+    const sdpa = Math.sqrt(st.reduce((a, r) => a + (r.pa - apa) ** 2, 0) / n) || 1;
+    // Regular-season seed: win %, then points for (ESPN's tiebreaker here; matches the 2025 bracket seeds
+    // and every 2019-2025 playoff field)
+    const seeded = st.slice().sort((a, b) => (mgrPct(b.w, b.l, b.t) - mgrPct(a.w, a.l, a.t)) || (b.pf - a.pf));
+    seeded.forEach((r, i) => {
+      get(atrKey(r.owner)).rows.push({ year: s.year, team: r.team, w: r.w, l: r.l, t: r.t, pf: r.pf, pa: r.pa,
+        seed: i + 1, n, P, finish: r.rank, champ: !!r.champion, pfIdx: r.pf / apf, paIdx: r.pa / apa,
+        pfZ: (r.pf - apf) / sdpf, paZ: (r.pa - apa) / sdpa });
+    });
+    // Weekly high score: top regular-season score each week (ties all get credit)
+    const weeks = ((MATCHUPS.years[String(s.year)] || {}).weeks) || [];
+    weeks.forEach(w => {
+      const sc = [];
+      w.matchups.forEach(m => { if (m.type === 'regular') sc.push([m.home_team_id, m.home_score], [m.away_team_id, m.away_score]); });
+      if (!sc.length) return;
+      if (hsFrom == null || s.year < hsFrom) hsFrom = s.year;
+      const hi = Math.max(...sc.map(x => x[1]));
+      sc.forEach(([tid, v]) => {
+        const k = mgrOwnerOf(s.year, tid); if (!k) return;
+        const m = get(k); m.hsWeeks++; if (v === hi) m.highs++;
+      });
+    });
+  });
+
+  const W = ATR.weights, cur = new Set(HISTORY.owners.map(o => mgrKey(o.name)));
+  const list = Object.values(M).filter(m => m.rows.length).map(m => {
+    const R = m.rows.sort((a, b) => a.year - b.year), ns = R.length;
+    const sum = f => R.reduce((a, r) => a + f(r), 0);
+    const w = sum(r => r.w), l = sum(r => r.l), t = sum(r => r.t);
+    const pct = mgrPct(w, l, t);
+    const finPts = sum(r => atrFinishPts(r.seed, r.n, r.P)) / ns;
+    const avgSeed = sum(r => r.seed) / ns;
+    const pfIdx = sum(r => r.pfIdx) / ns, paIdx = sum(r => r.paIdx) / ns;
+    const pfZ = sum(r => r.pfZ) / ns, paZ = sum(r => r.paZ) / ns;
+    const elig = R.filter(r => r.year >= ATR.playoffTrackFrom), made = elig.filter(r => r.finish <= r.P);
+    const titles = R.filter(r => r.champ).map(r => r.year);
+    const apps = R.filter(r => r.finish <= 2).map(r => r.year);
+    const poPct = elig.length ? made.length / elig.length : null;
+    const poFin = made.length ? made.reduce((a, r) => a + r.finish, 0) / made.length : null;
+    const hsRate = m.hsWeeks ? m.highs / m.hsWeeks : null;
+    const S = {
+      win: atrLin(pct, ...ATR.scales.win),
+      finish: finPts,
+      pf: atrLin(pfZ, ...ATR.scales.pf),
+      sos: atrLin(paZ, ...ATR.scales.sos),
+      high: hsRate == null ? 50 : atrClamp(hsRate / (ATR.scales.highMult / 12) * 100),
+      po: poPct == null ? 0 : poPct * 100,
+      titles: ATR.titleSteps[Math.min(titles.length, ATR.titleSteps.length - 1)],
+      apps: ATR.appSteps[Math.min(apps.length, ATR.appSteps.length - 1)],
+      pofin: poFin == null ? 0 : atrClamp((ATR.defaultPlayoffSpots - poFin) / (ATR.defaultPlayoffSpots - 1) * 100)
+    };
+    const pts = {}; Object.keys(W).forEach(k => { pts[k] = W[k] * S[k] / 100; });
+    const rs = ATR_COMP.filter(c => c.grp === 'rs').reduce((a, c) => a + pts[c.id], 0);
+    const po = ATR_COMP.filter(c => c.grp === 'po').reduce((a, c) => a + pts[c.id], 0);
+    return {
+      key: m.key, name: mgrDisplay(m.key), current: cur.has(m.key), rows: R, ns,
+      first: R[0].year, last: R[R.length - 1].year,
+      w, l, t, games: w + l + t, pct, avgSeed, bestSeed: Math.min(...R.map(r => r.seed)), finPts,
+      pfTotal: sum(r => r.pf), paTotal: sum(r => r.pa), pfIdx, paIdx, pfZ, paZ,
+      highs: m.highs, hsWeeks: m.hsWeeks, hsRate,
+      elig: elig.length, made: made.length, poPct, poFin, bestPo: made.length ? Math.min(...made.map(r => r.finish)) : null,
+      titles, apps, S, pts, rs, po, rating: rs + po, qualified: ns >= ATR.minSeasons
+    };
+  });
+  const rsMax = ATR_COMP.filter(c => c.grp === 'rs').reduce((a, c) => a + W[c.id], 0);
+  return { seasons, list, hsFrom, rsMax, poMax: 100 - rsMax,
+    firstYear: seasons.length ? seasons[0].year : null, lastYear: seasons.length ? seasons[seasons.length - 1].year : null };
+}
+
+function atrPool(){ return ATR_DATA.list.filter(m => ATR_POOL === 'all' || m.current); }
+function atrRanked(){
+  const q = atrPool().filter(m => m.qualified).sort((a, b) => b.rating - a.rating || b.pct - a.pct);
+  q.forEach((m, i) => { m.rank = (i && q[i - 1].rating.toFixed(2) === m.rating.toFixed(2)) ? q[i - 1].rank : i + 1; });
+  return q;
+}
+function atrRankOf(list, f, dir){   // pool rank of each manager on a stat (1 = best)
+  const vals = list.map(f);
+  return list.map((m, i) => 1 + vals.filter(v => v != null && vals[i] != null && (dir < 0 ? v > vals[i] : v < vals[i])).length);
+}
+function atrSetPool(p){
+  ATR_POOL = p; ATR_OPEN = null;
+  document.querySelectorAll('.atr-seg button').forEach(b => b.classList.toggle('active', b.getAttribute('data-pool') === p));
+  renderAtrCareer(); renderAtrBoards();
+}
+function atrPoolToggle(){
+  return `<div class="atr-seg" role="group" aria-label="Who to include">
+    <button data-pool="current" class="${ATR_POOL === 'current' ? 'active' : ''}" onclick="atrSetPool('current')">Current managers</button>
+    <button data-pool="all" class="${ATR_POOL === 'all' ? 'active' : ''}" onclick="atrSetPool('all')">Include alumni</button>
+  </div>`;
+}
+
+/* ---------- career table ---------- */
+const ATR_COLS = [
+  { id: 'rs',     grp: 'rs', label: 'Reg. season', val: m => m.rs,     fmt: m => m.rs.toFixed(1), dim: m => '/' + ATR_DATA.rsMax, dir: -1 },
+  { id: 'po',     grp: 'po', label: 'Playoffs',    val: m => m.po,     fmt: m => m.po.toFixed(1), dim: m => '/' + ATR_DATA.poMax, dir: -1 },
+  { id: 'rec',    grp: 'rs', label: 'Record',      val: m => m.w,      fmt: m => mgrRec(m.w, m.l, m.t), dir: -1 },
+  { id: 'pct',    grp: 'rs', label: 'Win %',       val: m => m.pct,    fmt: m => mgrPctStr(m.pct), heat: 'win', dir: -1 },
+  { id: 'seed',   grp: 'rs', label: 'Avg finish',  val: m => m.avgSeed, fmt: m => m.avgSeed.toFixed(2), heat: 'finish', dir: 1 },
+  { id: 'pfi',    grp: 'rs', label: 'PF (SD)',     val: m => m.pfZ,    fmt: m => atrSd(m.pfZ), heat: 'pf', dir: -1 },
+  { id: 'pft',    grp: 'rs', label: 'Total PF',    val: m => m.pfTotal, fmt: m => Math.round(m.pfTotal).toLocaleString('en-US'), dir: -1 },
+  { id: 'sos',    grp: 'rs', label: 'PA (SD)',     val: m => m.paZ,    fmt: m => atrSd(m.paZ), heat: 'sos', dir: -1 },
+  { id: 'hs',     grp: 'rs', label: 'High scores', val: m => m.hsWeeks ? m.hsRate : null, fmt: m => m.hsWeeks ? String(m.highs) : '\u2013', heat: 'high', dir: -1 },
+  { id: 'pop',    grp: 'rs', label: 'Playoff %',   val: m => m.poPct,  fmt: m => m.poPct == null ? '\u2013' : `${Math.round(m.poPct * 100)}%`, heat: 'po', dir: -1 },
+  { id: 'ttl',    grp: 'po', label: 'Titles',      val: m => m.titles.length, fmt: m => String(m.titles.length), heat: 'titles', dir: -1 },
+  { id: 'app',    grp: 'po', label: 'Title games', val: m => m.apps.length, fmt: m => String(m.apps.length), heat: 'apps', dir: -1 },
+  { id: 'pof',    grp: 'po', label: 'Avg PO finish', val: m => m.poFin, fmt: m => atrFixed(m.poFin, 2), heat: 'pofin', dir: 1 }
+];
+
+function atrSortBy(col){
+  if (ATR_SORT.col === col) ATR_SORT.dir *= -1;
+  else ATR_SORT = { col, dir: col === 'rank' ? 1 : (ATR_COLS.find(c => c.id === col) || { dir: -1 }).dir };
+  renderAtrTable();
+}
+function atrToggle(key){
+  ATR_OPEN = ATR_OPEN === key ? null : key;
+  renderAtrTable();
+}
+
+function atrSpotlightHtml(ranked){
+  const L = ranked[0]; if (!L) return '';
+  const next = ranked[1];
+  const rk = (f, dir) => { const r = atrRankOf(ranked, f, dir)[0]; return r === 1 ? '1st in league' : `${mgrOrd(r)} of ${ranked.length}`; };
+  const kpi = (v, k, r) => `<div class="atr-kpi"><div class="v">${v}</div><div class="k">${k}</div><div class="r">${r}</div></div>`;
+  const rsW = L.rs / L.rating * 100;
+  return `<div class="atr-spot">
+    <div style="position:relative; z-index:1;">
+      <span class="atr-spot-tag">&#9733; No. 1 all-time</span>
+      <div class="atr-spot-name"><button onclick="openManager('${esc(L.key).replace(/'/g, "\\'")}')">${esc(L.name)}</button></div>
+      <div class="atr-spot-meta">${L.first}&ndash;${L.last} &middot; ${L.ns} seasons &middot; ${mgrRec(L.w, L.l, L.t)}</div>
+      <div class="atr-spot-rating"><span class="num">${L.rating.toFixed(1)}</span><span class="lbl">Career<br>rating</span></div>
+      <div class="atr-spot-lead">${next ? `${(L.rating - next.rating).toFixed(1)} points clear of ${esc(next.name)} at No. 2.` : ''}</div>
+      <div class="atr-split">
+        <div class="atr-split-bar"><span class="rs" style="width:${rsW.toFixed(1)}%"></span><span class="po" style="width:${(100 - rsW).toFixed(1)}%"></span></div>
+        <div class="atr-split-legend"><span><i style="background:var(--amber)"></i>Regular season ${L.rs.toFixed(1)} / ${ATR_DATA.rsMax}</span><span><i style="background:var(--amber-bright);opacity:.6"></i>Titles &amp; playoffs ${L.po.toFixed(1)} / ${ATR_DATA.poMax}</span></div>
+      </div>
+    </div>
+    <div class="atr-kpis">
+      ${kpi(mgrPctStr(L.pct), 'Win %', rk(m => m.pct, -1))}
+      ${kpi(L.avgSeed.toFixed(2), 'Avg finish', rk(m => m.avgSeed, 1))}
+      ${kpi(atrSd(L.pfZ) + ' SD', 'Points for', rk(m => m.pfZ, -1))}
+      ${kpi(L.poPct == null ? '\u2013' : `${L.made}/${L.elig}`, 'Playoff trips', rk(m => m.poPct, -1))}
+      ${kpi(String(L.titles.length), 'Titles', L.titles.length ? L.titles.join(', ') : 'Still chasing one')}
+      ${kpi(L.hsWeeks ? String(L.highs) : '\u2013', 'High scores', L.hsWeeks ? rk(m => m.hsWeeks ? m.hsRate : null, -1) : 'No weekly data')}
+    </div>
+  </div>`;
+}
+
+function atrDetailHtml(m, colspan){
+  const comp = c => {
+    const raw = {
+      win: `${mgrPctStr(m.pct)} (${mgrRec(m.w, m.l, m.t)})`,
+      finish: `avg seed ${m.avgSeed.toFixed(2)}`,
+      pf: `${atrSd(m.pfZ)} SD (${atrSigned(m.pfIdx)} vs avg)`,
+      sos: `PA ${atrSd(m.paZ)} SD (${atrSigned(m.paIdx)} vs avg)`,
+      high: m.hsWeeks ? `${m.highs} in ${m.hsWeeks} weeks` : 'no weekly data (neutral)',
+      po: m.poPct == null ? 'n/a' : `${m.made} of ${m.elig} seasons`,
+      titles: m.titles.length ? m.titles.join(', ') : 'none',
+      apps: m.apps.length ? m.apps.join(', ') : 'none',
+      pofin: m.poFin == null ? 'no trips' : `${m.poFin.toFixed(2)} avg`
+    }[c.id];
+    return `<div class="atr-comp ${c.grp}">
+      <div class="c-name">${c.label}<small>${raw}</small></div>
+      <div class="c-bar"><i style="width:${m.S[c.id].toFixed(1)}%"></i></div>
+      <div class="c-score">${Math.round(m.S[c.id])}</div>
+      <div class="c-pts">${m.pts[c.id].toFixed(2)}<span class="dim">/${ATR.weights[c.id]}</span></div>
+    </div>`;
+  };
+  const yr = r => {
+    const po = r.finish <= r.P;
+    const cls = r.champ ? 'champ' : po ? 'po' : 'miss';
+    return `<div class="atr-yr ${cls}" title="${esc(r.team)} &middot; ${mgrRec(r.w, r.l, r.t)} &middot; seed ${r.seed} &middot; finished ${mgrOrd(r.finish)}">
+      <div class="y">${r.year}</div><div class="f">${r.champ ? '&#9733;' : mgrOrd(r.finish)}</div><div class="s">${mgrRec(r.w, r.l, r.t)} &middot; #${r.seed}</div></div>`;
+  };
+  return `<tr class="atr-detail"><td colspan="${colspan}"><div class="atr-detail-inner"><div class="atr-detail-grid">
+    <div>
+      <div class="atr-comp-head"><span>Component</span><span>Score</span><span>/100</span><span>Points</span></div>
+      <div class="atr-comp-sub">Regular season &middot; ${m.rs.toFixed(1)} of ${ATR_DATA.rsMax}</div>
+      ${ATR_COMP.filter(c => c.grp === 'rs').map(comp).join('')}
+      <div class="atr-comp-sub">Titles &amp; playoff results &middot; ${m.po.toFixed(1)} of ${ATR_DATA.poMax}</div>
+      ${ATR_COMP.filter(c => c.grp === 'po').map(comp).join('')}
+    </div>
+    <div>
+      <div class="atr-yr-title">Season by season &middot; final place</div>
+      <div class="atr-yrs">${m.rows.slice().reverse().map(yr).join('')}</div>
+      <div class="atr-yr-key"><span>&#9733; champion</span><span>gold border = playoffs</span><span>#n = reg. season seed</span></div>
+      <div class="atr-detail-actions"><button class="atr-link" onclick="event.stopPropagation(); openManager('${esc(m.key).replace(/'/g, "\\'")}')">Open full career file &rarr;</button></div>
+    </div>
+  </div></div></td></tr>`;
+}
+
+function renderAtrTable(){
+  const el = document.getElementById('atr-table'); if (!el) return;
+  const ranked = atrRanked();
+  const col = ATR_COLS.find(c => c.id === ATR_SORT.col);
+  const keyF = ATR_SORT.col === 'rank' || ATR_SORT.col === 'rating' ? (m => m.rating) : col.val;
+  const sorted = ranked.slice().sort((a, b) => {
+    const va = keyF(a), vb = keyF(b);
+    if (va == null && vb == null) return a.rank - b.rank;
+    if (va == null) return 1; if (vb == null) return -1;
+    const d = (ATR_SORT.col === 'rank' ? (vb - va) : (va - vb)) * ATR_SORT.dir;
+    return d || a.rank - b.rank;
+  });
+  // best value in each stat column (among qualified managers in the pool)
+  const best = {};
+  ATR_COLS.forEach(c => {
+    const vals = ranked.map(c.val).filter(v => v != null);
+    if (vals.length) best[c.id] = c.dir < 0 ? Math.max(...vals) : Math.min(...vals);
+  });
+  const defDir = id => id === 'rank' ? 1 : (ATR_COLS.find(c => c.id === id) || { dir: -1 }).dir;
+  const arrow = id => ATR_SORT.col === id ? `<span class="arr">${ATR_SORT.dir === defDir(id) ? '&#9660;' : '&#9650;'}</span>` : '';
+  const th = (id, label, cls) => `<th class="${cls || ''} ${ATR_SORT.col === id ? 'sorted' : ''}" onclick="atrSortBy('${id}')">${label}${arrow(id)}</th>`;
+  const rsCols = ATR_COLS.filter(c => c.grp === 'rs' && c.id !== 'rs'), poCols = ATR_COLS.filter(c => c.grp === 'po' && c.id !== 'po');
+  const colspan = 5 + rsCols.length + poCols.length;
+  const cell = (c, m) => {
+    const v = c.val(m);
+    const isBest = v != null && best[c.id] != null && Math.abs(v - best[c.id]) < 1e-9 && ranked.length > 1;
+    const h = c.heat ? (m.S[c.heat] / 100) : null;
+    const style = h != null ? ` style="box-shadow:inset 0 0 0 999px rgba(232,163,61,${(h * 0.13).toFixed(3)})"` : '';
+    return `<td${style}><span class="${isBest ? 'best' : ''}">${c.fmt(m)}</span></td>`;
+  };
+  el.innerHTML = `<div class="atr-table-wrap"><table class="atr-table">
+    <thead>
+      <tr><th class="grp sticky" style="left:0"></th><th class="grp sticky2"></th><th class="grp" colspan="3">Career rating</th>
+        <th class="grp" colspan="${rsCols.length}">Regular season &middot; ${ATR_DATA.rsMax}%</th>
+        <th class="grp po" colspan="${poCols.length}">Titles &amp; playoff results &middot; ${ATR_DATA.poMax}%</th></tr>
+      <tr>${th('rank', '#', 'sticky l')}${th('rank', 'Manager', 'sticky2 l')}${th('rating', 'Rating')}${th('rs', 'Reg. season')}${th('po', 'Titles &amp; PO')}
+        ${rsCols.map(c => th(c.id, c.label)).join('')}${poCols.map(c => th(c.id, c.label)).join('')}</tr>
+    </thead>
+    <tbody>${sorted.map(m => `
+      <tr class="atr-row r${m.rank} ${ATR_OPEN === m.key ? 'open' : ''}" onclick="atrToggle('${esc(m.key).replace(/'/g, "\\'")}')" aria-expanded="${ATR_OPEN === m.key}">
+        <td class="rk sticky">${m.rank}</td>
+        <td class="l sticky2"><div class="atr-mgr"><span class="atr-av">${esc(mgrAvatar(m.key))}</span><div>
+          <div class="nm">${esc(m.name)}${m.current ? '' : '<span class="atr-alum">ALUM</span>'}<span class="atr-chev">&#9654;</span></div>
+          <div class="sub mono">${m.first}&ndash;${m.last} &middot; ${m.ns} seasons</div></div></div></td>
+        <td><div class="atr-rating"><span class="atr-bar"><i style="width:${m.rating.toFixed(1)}%"></i></span><span class="n">${m.rating.toFixed(1)}</span></div></td>
+        <td>${m.rs.toFixed(1)}<span class="dim">/${ATR_DATA.rsMax}</span></td>
+        <td>${m.po.toFixed(1)}<span class="dim">/${ATR_DATA.poMax}</span></td>
+        ${rsCols.map(c => cell(c, m)).join('')}${poCols.map(c => cell(c, m)).join('')}
+      </tr>${ATR_OPEN === m.key ? atrDetailHtml(m, colspan) : ''}`).join('')}
+    </tbody></table></div>`;
+}
+
+function renderAtrCareer(){
+  const el = document.getElementById('atr-career-content'); if (!el) return;
+  const D = ATR_DATA, ranked = atrRanked();
+  const unq = atrPool().filter(m => !m.qualified).sort((a, b) => b.ns - a.ns || a.name.localeCompare(b.name));
+  el.innerHTML = `
+    <div class="section-head">
+      <div class="kicker">Career manager rankings</div>
+      <h2>The all-time leaderboard</h2>
+      <p>One career rating out of 100 for every manager with at least ${ATR.minSeasons} completed seasons. ${D.rsMax}% of it is regular-season work (winning, making the playoffs, finishing high, scoring, and the schedule you were dealt). The other ${D.poMax}% is what you did in December. Tap any manager for the full breakdown.</p>
+    </div>
+    <div class="atr-toolbar">${atrPoolToggle()}<span class="atr-span">${D.firstYear}&ndash;${D.lastYear} &middot; ${D.seasons.length} completed seasons</span></div>
+    ${atrSpotlightHtml(ranked)}
+    <div id="atr-table"></div>
+    <div class="atr-hint">Tap a column to sort &middot; swipe sideways on mobile for every stat &middot; shaded cells show how strong each number is &middot; gold = best in the league</div>
+    ${unq.length ? `<div class="atr-unq"><b>Not yet qualified</b> (under ${ATR.minSeasons} completed seasons): ${unq.map(m => `${esc(m.name)} (${m.ns})`).join(', ')}.</div>` : ''}`;
+  renderAtrTable();
+}
+
+/* ---------- individual leaderboards ---------- */
+function atrBoards(){
+  const D = ATR_DATA;
+  const yrs = a => a.length ? a.join(', ') : '\u2013';
+  return [
+    { title: 'All-time win %', q: `Regular season &middot; min. ${ATR.minSeasons} seasons`, rate: true, dir: -1,
+      val: m => m.pct, fmt: v => mgrPctStr(v), sub: m => mgrRec(m.w, m.l, m.t) },
+    { title: 'All-time playoff %', q: `${ATR.playoffTrackFrom}+ &middot; min. ${ATR.minSeasons} seasons`, rate: true, dir: -1,
+      val: m => m.poPct, fmt: v => `${Math.round(v * 100)}%`, sub: m => `${m.made} of ${m.elig} seasons` },
+    { title: 'Most career wins', q: 'Regular season', dir: -1,
+      val: m => m.w, fmt: v => String(v), sub: m => `${mgrRec(m.w, m.l, m.t)} &middot; ${m.ns} seasons` },
+    { title: 'Most career points for', q: 'Regular season', dir: -1,
+      val: m => m.pfTotal, fmt: v => v.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 }),
+      sub: m => `${(m.pfTotal / m.games).toFixed(1)} per game &middot; ${m.ns} seasons` },
+    { title: 'Most championships', q: 'All seasons', dir: -1,
+      val: m => m.titles.length, fmt: v => String(v), sub: m => yrs(m.titles) },
+    { title: 'Most championship appearances', q: 'Title games played (1st or 2nd)', dir: -1,
+      val: m => m.apps.length, fmt: v => String(v), sub: m => m.apps.map(y => m.titles.includes(y) ? `${y}&#9733;` : y).join(', ') || '\u2013' },
+    { title: 'Best avg. regular-season finish', q: `Seed by record, then PF &middot; min. ${ATR.minSeasons} seasons`, rate: true, dir: 1,
+      val: m => m.avgSeed, fmt: v => v.toFixed(2), sub: m => `Best ${mgrOrd(m.bestSeed)} &middot; ${m.ns} seasons` },
+    { title: 'Most weekly high scores', q: `Regular season &middot; weekly scores on file ${D.hsFrom || ''}+`, dir: -1, needWeeks: true,
+      val: m => m.highs, fmt: v => String(v), sub: m => `${m.highs} of ${m.hsWeeks} weeks` },
+    { title: 'Best avg. playoff finish', q: `${ATR.playoffTrackFrom}+ &middot; min. ${ATR.minSeasons} seasons, 1+ trip`, rate: true, dir: 1,
+      val: m => m.poFin, fmt: v => v.toFixed(2), sub: m => `${m.made} trips &middot; best ${mgrOrd(m.bestPo)}` }
+  ];
+}
+function atrBoardHtml(b, idx){
+  let list = atrPool().filter(m => (!b.rate || m.qualified) && (!b.needWeeks || m.hsWeeks) && b.val(m) != null);
+  list.sort((x, y) => (b.dir < 0 ? b.val(y) - b.val(x) : b.val(x) - b.val(y)) || x.name.localeCompare(y.name));
+  const same = (x, y) => Math.abs(b.val(x) - b.val(y)) < 1e-9;
+  list.forEach((m, i) => { m._p = (i && same(m, list[i - 1])) ? list[i - 1]._p : i + 1; });
+  list.forEach((m, i) => { m._t = list.some((o, j) => j !== i && o._p === m._p); });
+  if (!list.length) return '';
+  const L = list[0], co = list.filter(m => m._p === 1);
+  const leaderName = co.length > 1 ? `${co.map(m => esc(m.name)).join(' &amp; ')}` : esc(L.name);
+  const rest = list.slice(co.length);
+  const SHOW = 5;
+  const zero = m => !b.rate && b.val(m) === 0;
+  return `<div class="atr-board" id="atr-board-${idx}">
+    <div class="atr-board-head"><div class="t">${b.title}</div><div class="q">${b.q}</div></div>
+    <div class="atr-leader"><span class="atr-av">${co.length > 1 ? 'T' + co.length : esc(mgrAvatar(L.key))}</span>
+      <div class="who"><div class="nm">${leaderName}</div><div class="sub">${co.length > 1 ? 'Tied for the lead' : b.sub(L)}</div></div>
+      <div class="val">${b.fmt(b.val(L))}</div></div>
+    <ol>${rest.map((m, i) => `<li class="${i >= SHOW ? 'extra' : ''} ${zero(m) ? 'zero' : ''}" title="${esc(m.name)}">
+      <span class="p">${m._t ? 'T' : ''}${m._p}</span>
+      <span class="n">${esc(m.name)}${m.current ? '' : '<small>alum</small>'}<small>${b.sub(m)}</small></span>
+      <span class="v">${b.fmt(b.val(m))}</span></li>`).join('')}</ol>
+    ${rest.length > SHOW ? `<div class="atr-board-foot"><span>${list.length} ranked</span><button onclick="atrBoardToggle(${idx}, this)">Show all</button></div>` : ''}
+  </div>`;
+}
+function atrBoardToggle(idx, btn){
+  const el = document.getElementById('atr-board-' + idx);
+  const on = el.classList.toggle('expanded');
+  btn.textContent = on ? 'Show top 5' : 'Show all';
+}
+function renderAtrBoards(){
+  const el = document.getElementById('atr-boards-content'); if (!el) return;
+  el.innerHTML = `
+    <div class="section-head">
+      <div class="kicker">Individual leaderboards</div>
+      <h2>Stat by stat</h2>
+      <p>Straight rankings on each number, separate from the career rating. Rate stats need ${ATR.minSeasons} completed seasons; counting stats include everyone.</p>
+    </div>
+    <div class="atr-toolbar">${atrPoolToggle()}</div>
+    <div class="atr-boards">${atrBoards().map(atrBoardHtml).join('')}</div>`;
+}
+
+/* ---------- methodology ---------- */
+function renderAtrMethod(){
+  const el = document.getElementById('atr-method-content'); if (!el) return;
+  const D = ATR_DATA, W = ATR.weights, S = ATR.scales, f = ATR.finishTop;
+  const pct = v => mgrPctStr(v);
+  const rows = {
+    win: `Career regular-season win %. <b>${pct(S.win[0])}</b> scores 0 and <b>${pct(S.win[1])}</b> scores 100.`,
+    finish: `Regular-season seed every year (record, then points for), turned into points: 1st <b>${f[0]}</b>, 2nd <b>${f[1]}</b>, 3rd <b>${f[2]}</b>, 4th <b>${f[3]}</b>, 5th to 8th <b>${f[4]}</b> down to <b>${f[7]}</b>. Missing the playoffs drops you to <b>${ATR.missTop}</b> or less, sliding to 0 for last. Averaged over every season.`,
+    pf: `How many standard deviations each season's points for sat above or below that season's league average, averaged across the career. Because every year is measured against its own league, 13-game and 14-game seasons and high- or low-scoring years all count the same. <b>${S.pf[0]} SD</b> scores 0, average scores 50, <b>+${S.pf[1]} SD</b> scores 100.`,
+    sos: `Points against, measured the same way in standard deviations from each season's average. A tougher schedule earns credit: <b>${S.sos[0]} SD</b> scores 0, <b>+${S.sos[1]} SD</b> scores 100.`,
+    high: `Share of regular-season weeks with the league's top score. ${S.highMult}x the 1-in-12 average scores 100. Weekly scores are on file from <b>${D.hsFrom || 'n/a'}</b>; anyone with no weeks on file gets a neutral 50.`,
+    po: `Playoff berths divided by seasons played, from <b>${ATR.playoffTrackFrom}</b> on.`,
+    titles: `0 / 1 / 2 / 3+ titles score ${ATR.titleSteps.join(' / ')}. Diminishing on purpose, so rings matter without running the table.`,
+    apps: `Title games reached (finished 1st or 2nd). 0 / 1 / 2 / 3 / 4+ score ${ATR.appSteps.join(' / ')}.`,
+    pofin: `Average final place in playoff years (from ${ATR.playoffTrackFrom}). 1st scores 100, ${ATR.defaultPlayoffSpots}th scores 0, no trips scores 0.`
+  };
+  const grp = (g, label, total) => `<tr class="grp"><td colspan="3">${label} &middot; ${total}%</td></tr>` +
+    ATR_COMP.filter(c => c.grp === g).map(c => `<tr><td><b>${c.label}</b></td><td class="w">${W[c.id]}%</td><td>${rows[c.id]}</td></tr>`).join('');
+  el.innerHTML = `
+    <div class="section-head">
+      <div class="kicker">How the rating works</div>
+      <h2>The formula, in the open</h2>
+      <p>Every component is scored 0 to 100 on a fixed scale, multiplied by its weight, and added up. Fixed scales mean a manager's rating never moves because someone else joined or left the pool.</p>
+    </div>
+    <div class="atr-method">
+      <div class="card" style="overflow:hidden;"><div style="overflow-x:auto;"><table class="atr-mtable">
+        <thead><tr><th>Component</th><th>Weight</th><th>How it's scored</th></tr></thead>
+        <tbody>${grp('rs', 'Regular season', D.rsMax)}${grp('po', 'Championships &amp; playoff results', D.poMax)}</tbody>
+      </table></div></div>
+      <div class="atr-notes">
+        <h3>Data notes</h3>
+        <ul>
+          <li><b>Completed seasons only.</b> ${D.firstYear} through ${D.lastYear} are in. A new season joins automatically once its final standings are on the site, so ${MGR_LIVE_YEAR} counts after the title game.</li>
+          <li><b>Regular-season seeds aren't stored</b> in the ESPN pulls (the standings rank is the final, post-playoff place). Seeds are rebuilt from record, then points for. That rule matches the 2025 bracket seeds and every playoff field from 2019 on.</li>
+          <li><b>Eight playoff teams every year</b>, ${D.firstYear} included. Seasons with weekly data read the bracket size straight from the playoff games.</li>
+          <li><b>Average finish gave 5 points to Points For</b> in the weighting (20/10 became 15/15), and playoff % counts toward the regular-season side, since that's where berths are earned.</li>
+          <li><b>Weekly high scores</b> start in ${D.hsFrom || 'n/a'}, the first season with weekly scores on file. The rating uses a rate so earlier careers aren't punished.</li>
+          <li><b>Same franchise, same file.</b> Gargiulo &amp; Crown are one manager across every season, and the team slot Jon Garcia ran through 2023 is credited to him, not Dan Marinos.</li>
+          <li><b>Nothing is typed in by hand.</b> Every number is computed in your browser from the same data behind the Seasons and Managers tabs.</li>
+        </ul>
+      </div>
+    </div>`;
+}
+
+function renderRankings(){
+  ATR_DATA = atrCompute();
+  const k = document.getElementById('atr-hero-kicker');
+  if (k && ATR_DATA.firstYear) k.textContent = `The official record \u00b7 ${ATR_DATA.firstYear}\u2013${ATR_DATA.lastYear}`;
+  renderAtrCareer();
+  renderAtrBoards();
+  renderAtrMethod();
+}
+
 /* ============ INIT ============ */
 document.addEventListener('DOMContentLoaded', function(){
   renderOrigin();
@@ -1620,6 +2303,7 @@ document.addEventListener('DOMContentLoaded', function(){
   renderH2HShell();
   renderOwners();
   renderManagers();
+  try { renderRankings(); } catch (e) { console.error('All-Time Rankings failed to render', e); }
   renderRosters();
   renderDraftHabits();
   renderDraft();
@@ -1629,6 +2313,7 @@ document.addEventListener('DOMContentLoaded', function(){
   if (location.hash.indexOf('#managers') === 0) setMode('managers');
   else if (location.hash === '#live') setMode('live');
   else if (location.hash === '#history') setMode('history');
+  else if (location.hash === '#rankings') setMode('rankings');
 });
 
 </script>
