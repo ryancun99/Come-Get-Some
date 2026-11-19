@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:12:42.964125+00:00",
+  "generated_at": "2026-11-19T19:17:02.861775+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -124,6 +124,108 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-19T11:00:42.437000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Malik Washington)"
+    },
+    {
+      "date": "2026-11-19T11:00:42.437000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Jacoby Brissett)"
+    },
+    {
+      "date": "2026-11-19T10:58:00.393000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Ja'Kobi Lane)"
+    },
+    {
+      "date": "2026-11-19T10:58:00.393000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Treylon Burks)"
+    },
+    {
+      "date": "2026-11-19T10:57:07.046000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Dontayvion Wicks)"
+    },
+    {
+      "date": "2026-11-19T10:56:22.983000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Dominic Zvada)"
+    },
+    {
+      "date": "2026-11-19T10:56:17.046000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Wil Lutz)"
+    },
+    {
+      "date": "2026-11-19T01:23:50.015000+00:00",
+      "owner": "ryan grzymala",
+      "action": "TRADE_SENT",
+      "player": "Player(Kirk Cousins)"
+    },
+    {
+      "date": "2026-11-19T01:23:50.015000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Kirk Cousins)"
+    },
+    {
+      "date": "2026-11-19T01:23:50.015000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "TRADE_SENT",
+      "player": "Player(Kyle Pitts Sr.)"
+    },
+    {
+      "date": "2026-11-19T01:23:50.015000+00:00",
+      "owner": "ryan grzymala",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Kyle Pitts Sr.)"
+    },
+    {
+      "date": "2026-11-19T01:11:24.721000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Hunter Henry)"
+    },
+    {
+      "date": "2026-11-19T01:10:44.687000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_SENT",
+      "player": "Player(DK Metcalf)"
+    },
+    {
+      "date": "2026-11-19T01:10:44.687000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(DK Metcalf)"
+    },
+    {
+      "date": "2026-11-19T01:10:44.687000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "TRADE_SENT",
+      "player": "Player(Jadarian Price)"
+    },
+    {
+      "date": "2026-11-19T01:10:44.687000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Jadarian Price)"
+    },
+    {
+      "date": "2026-11-19T00:54:27.949000+00:00",
+      "owner": "Daniel Jimenez",
+      "action": "FA ADDED",
+      "player": "Player(Jets D/ST)"
+    },
     {
       "date": "2026-11-18T12:22:06.263000+00:00",
       "owner": "Jonathan Lee",
@@ -459,72 +561,6 @@
       "owner": "Justin Eveland",
       "action": "WAIVER ADDED",
       "player": "Player(Corey Kiner)"
-    },
-    {
-      "date": "2026-11-11T00:10:21.953000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Mike Gesicki)"
-    },
-    {
-      "date": "2026-11-10T22:14:00.964000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Jalen Nailor)"
-    },
-    {
-      "date": "2026-11-10T22:13:52.287000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Elijah Mitchell)"
-    },
-    {
-      "date": "2026-11-10T20:46:47.447000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Malik Willis)"
-    },
-    {
-      "date": "2026-11-10T15:33:58.947000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Michael Wilson)"
-    },
-    {
-      "date": "2026-11-09T00:30:33.616000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Kendre Miller)"
-    },
-    {
-      "date": "2026-11-08T17:57:44.344000+00:00",
-      "owner": "Justin Eveland",
-      "action": "FA ADDED",
-      "player": "Player(Jalen Nailor)"
-    },
-    {
-      "date": "2026-11-08T15:26:02.774000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "FA ADDED",
-      "player": "Player(Darius Cooper)"
-    },
-    {
-      "date": "2026-11-08T15:26:02.774000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "DROPPED",
-      "player": "Player(Tyjae Spears)"
-    },
-    {
-      "date": "2026-11-08T15:21:44.589000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "FA ADDED",
-      "player": "Player(Bo Nix)"
-    },
-    {
-      "date": "2026-11-08T15:21:44.589000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Kyler Murray)"
     }
   ],
   "weekly_scores": [
