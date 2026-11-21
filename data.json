@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:55:42.882881+00:00",
+  "generated_at": "2026-11-21T17:50:42.400950+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -124,6 +124,18 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-20T21:09:20.275000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Bam Knight)"
+    },
+    {
+      "date": "2026-11-20T21:09:20.275000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Corey Kiner)"
+    },
     {
       "date": "2026-11-20T18:21:23.775000+00:00",
       "owner": "Hanew Alhayek",
@@ -555,18 +567,6 @@
       "owner": "ryan grzymala",
       "action": "WAIVER ADDED",
       "player": "Player(Packers D/ST)"
-    },
-    {
-      "date": "2026-11-11T09:00:03.075000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Brandon Aiyuk)"
-    },
-    {
-      "date": "2026-11-11T09:00:03.075000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "WAIVER ADDED",
-      "player": "Player(Tutu Atwell)"
     }
   ],
   "weekly_scores": [
