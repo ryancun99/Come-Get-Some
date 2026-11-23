@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:10:15.814078+00:00",
+  "generated_at": "2026-11-23T22:21:07.788258+00:00",
   "current_week": 11,
   "standings": [
     {
@@ -1160,55 +1160,55 @@
         {
           "home_team_id": 13,
           "home_owner": "Hanew Alhayek",
-          "home_score": 18.0,
+          "home_score": 144.8,
           "away_team_id": 8,
           "away_owner": "Bobby Lupo",
-          "away_score": 36.8,
+          "away_score": 84.0,
           "type": "regular"
         },
         {
           "home_team_id": 14,
           "home_owner": "Al Rucc",
-          "home_score": 18.5,
+          "home_score": 148.9,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 1.9,
+          "away_score": 127.2,
           "type": "regular"
         },
         {
           "home_team_id": 9,
           "home_owner": "Jonathan Lee",
-          "home_score": 18.2,
+          "home_score": 91.3,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 12.2,
+          "away_score": 91.1,
           "type": "regular"
         },
         {
           "home_team_id": 10,
           "home_owner": "Dom Belli",
-          "home_score": 6.1,
+          "home_score": 94.8,
           "away_team_id": 6,
           "away_owner": "Nicholas Gargiulo & Kevin Crown",
-          "away_score": 16.2,
+          "away_score": 113.9,
           "type": "regular"
         },
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 10.4,
+          "home_score": 76.4,
           "away_team_id": 2,
           "away_owner": "Dan Marinos",
-          "away_score": 16.9,
+          "away_score": 108.9,
           "type": "regular"
         },
         {
           "home_team_id": 12,
           "home_owner": "Justin Eveland",
-          "home_score": 24.8,
+          "home_score": 98.5,
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
-          "away_score": 16.0,
+          "away_score": 109.6,
           "type": "regular"
         }
       ]
