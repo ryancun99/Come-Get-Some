@@ -1,129 +1,165 @@
 {
-  "generated_at": "2026-11-23T22:21:07.788258+00:00",
-  "current_week": 11,
+  "generated_at": "2026-11-24T20:57:45.378972+00:00",
+  "current_week": 12,
   "standings": [
+    {
+      "team_id": 13,
+      "owner": "Hanew Alhayek",
+      "espn_team_name": "Nud Reaper",
+      "wins": 7,
+      "losses": 4,
+      "ties": 0,
+      "pf": 1451.2,
+      "pa": 1381.2
+    },
     {
       "team_id": 10,
       "owner": "Dom Belli",
       "espn_team_name": "Shoulder Biters",
       "wins": 7,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "pf": 1299.2,
-      "pa": 1249.4
+      "pf": 1394.1,
+      "pa": 1363.3
     },
     {
       "team_id": 7,
       "owner": "Daniel Jimenez",
       "espn_team_name": "Robbing downs ",
       "wins": 7,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
-      "pf": 1254.6,
-      "pa": 1121.6
+      "pf": 1381.9,
+      "pa": 1279.1
+    },
+    {
+      "team_id": 14,
+      "owner": "Al Rucc",
+      "espn_team_name": "This League Sucks Really Bad",
+      "wins": 6,
+      "losses": 5,
+      "ties": 0,
+      "pf": 1456.9,
+      "pa": 1292.5
     },
     {
       "team_id": 5,
       "owner": "ryan grzymala",
       "espn_team_name": "Federal Burrow of Investigation",
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 1329.8,
-      "pa": 1222.5
+      "pf": 1430.1,
+      "pa": 1348.5
     },
     {
-      "team_id": 13,
-      "owner": "Hanew Alhayek",
-      "espn_team_name": "Nud Reaper",
+      "team_id": 1,
+      "owner": "Ryan Cunningham",
+      "espn_team_name": "Jerry's World",
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
-      "pf": 1306.4,
-      "pa": 1288.8
+      "pf": 1421.7,
+      "pa": 1373.7
+    },
+    {
+      "team_id": 3,
+      "owner": "Chris Dietz",
+      "espn_team_name": "Florham Park Dietz",
+      "wins": 6,
+      "losses": 5,
+      "ties": 0,
+      "pf": 1388.9,
+      "pa": 1348.2
     },
     {
       "team_id": 9,
       "owner": "Jonathan Lee",
       "espn_team_name": "Amon-Ra Ra Rasputin",
       "wins": 6,
-      "losses": 4,
-      "ties": 0,
-      "pf": 1291.0,
-      "pa": 1294.9
-    },
-    {
-      "team_id": 1,
-      "owner": "Ryan Cunningham",
-      "espn_team_name": "Jerry's World",
-      "wins": 5,
       "losses": 5,
       "ties": 0,
-      "pf": 1304.1,
-      "pa": 1275.2
-    },
-    {
-      "team_id": 14,
-      "owner": "Al Rucc",
-      "espn_team_name": "This League Sucks Really Bad",
-      "wins": 5,
-      "losses": 5,
-      "ties": 0,
-      "pf": 1299.4,
-      "pa": 1165.2
-    },
-    {
-      "team_id": 3,
-      "owner": "Chris Dietz",
-      "espn_team_name": "Florham Park Dietz",
-      "wins": 5,
-      "losses": 5,
-      "ties": 0,
-      "pf": 1275.0,
-      "pa": 1256.9
+      "pf": 1382.3,
+      "pa": 1408.9
     },
     {
       "team_id": 12,
       "owner": "Justin Eveland",
       "espn_team_name": "I Like It Sloppy",
       "wins": 5,
-      "losses": 5,
+      "losses": 6,
       "ties": 0,
-      "pf": 1253.0,
-      "pa": 1183.6
+      "pf": 1351.5,
+      "pa": 1301.3
     },
     {
       "team_id": 2,
       "owner": "Dan Marinos",
       "espn_team_name": "Nice Tets",
-      "wins": 4,
+      "wins": 5,
       "losses": 6,
       "ties": 0,
-      "pf": 1121.6,
-      "pa": 1245.7
+      "pf": 1247.6,
+      "pa": 1346.0
     },
     {
       "team_id": 6,
       "owner": "Nicholas Gargiulo & Kevin Crown",
       "espn_team_name": "Hammer",
-      "wins": 3,
+      "wins": 4,
       "losses": 7,
       "ties": 0,
-      "pf": 1106.6,
-      "pa": 1273.0
+      "pf": 1220.5,
+      "pa": 1367.9
     },
     {
       "team_id": 8,
       "owner": "Bobby Lupo",
       "espn_team_name": "Wet Wetensteinberg",
       "wins": 1,
-      "losses": 9,
+      "losses": 10,
       "ties": 0,
-      "pf": 1117.5,
-      "pa": 1381.4
+      "pf": 1209.9,
+      "pa": 1526.2
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-24T14:50:45.259000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(J.K. Dobbins)"
+    },
+    {
+      "date": "2026-11-24T14:24:45.305000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Roman Wilson)"
+    },
+    {
+      "date": "2026-11-24T14:09:21.645000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Myles Price)"
+    },
+    {
+      "date": "2026-11-24T14:09:14.633000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "DROPPED",
+      "player": "Player(Bears D/ST)"
+    },
+    {
+      "date": "2026-11-24T12:27:15.799000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Michael Mayer)"
+    },
+    {
+      "date": "2026-11-24T10:06:20.612000+00:00",
+      "owner": "Daniel Jimenez",
+      "action": "DROPPED",
+      "player": "Player(Jets D/ST)"
+    },
     {
       "date": "2026-11-22T17:49:49.380000+00:00",
       "owner": "Al Rucc",
@@ -513,54 +549,6 @@
       "owner": "Ryan Cunningham",
       "action": "FA ADDED",
       "player": "Player(Xavier Hutchinson)"
-    },
-    {
-      "date": "2026-11-11T13:57:42.627000+00:00",
-      "owner": "Al Rucc",
-      "action": "FA ADDED",
-      "player": "Player(Jordan Watkins)"
-    },
-    {
-      "date": "2026-11-11T12:53:26.978000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "FA ADDED",
-      "player": "Player(Evan McPherson)"
-    },
-    {
-      "date": "2026-11-11T12:52:41.980000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Michael Pittman Jr.)"
-    },
-    {
-      "date": "2026-11-11T12:40:44.681000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Emanuel Wilson)"
-    },
-    {
-      "date": "2026-11-11T12:40:44.681000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "FA ADDED",
-      "player": "Player(Colby Parkinson)"
-    },
-    {
-      "date": "2026-11-11T11:00:19.365000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Devin Singletary)"
-    },
-    {
-      "date": "2026-11-11T11:00:19.365000+00:00",
-      "owner": "ryan grzymala",
-      "action": "FA ADDED",
-      "player": "Player(Chig Okonkwo)"
-    },
-    {
-      "date": "2026-11-11T10:53:22.083000+00:00",
-      "owner": "Daniel Jimenez",
-      "action": "FA ADDED",
-      "player": "Player(Commanders D/ST)"
     }
   ],
   "weekly_scores": [
@@ -1163,13 +1151,13 @@
           "home_score": 144.8,
           "away_team_id": 8,
           "away_owner": "Bobby Lupo",
-          "away_score": 84.0,
+          "away_score": 92.5,
           "type": "regular"
         },
         {
           "home_team_id": 14,
           "home_owner": "Al Rucc",
-          "home_score": 148.9,
+          "home_score": 157.5,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
           "away_score": 127.2,
@@ -1181,7 +1169,7 @@
           "home_score": 91.3,
           "away_team_id": 3,
           "away_owner": "Chris Dietz",
-          "away_score": 91.1,
+          "away_score": 114.0,
           "type": "regular"
         },
         {
@@ -1196,10 +1184,10 @@
         {
           "home_team_id": 5,
           "home_owner": "ryan grzymala",
-          "home_score": 76.4,
+          "home_score": 100.3,
           "away_team_id": 2,
           "away_owner": "Dan Marinos",
-          "away_score": 108.9,
+          "away_score": 126.0,
           "type": "regular"
         },
         {
@@ -1208,7 +1196,7 @@
           "home_score": 98.5,
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
-          "away_score": 109.6,
+          "away_score": 117.7,
           "type": "regular"
         }
       ]
