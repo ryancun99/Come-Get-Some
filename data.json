@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:57:45.378972+00:00",
+  "generated_at": "2026-11-25T20:19:37.948369+00:00",
   "current_week": 12,
   "standings": [
     {
@@ -124,6 +124,156 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-25T14:04:09.817000+00:00",
+      "owner": "Al Rucc",
+      "action": "FA ADDED",
+      "player": "Player(Austin Ekeler)"
+    },
+    {
+      "date": "2026-11-25T13:33:20.935000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Baker Mayfield)"
+    },
+    {
+      "date": "2026-11-25T13:31:49.668000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Wan'Dale Robinson)"
+    },
+    {
+      "date": "2026-11-25T13:24:50.524000+00:00",
+      "owner": "Justin Eveland",
+      "action": "FA ADDED",
+      "player": "Player(Drew Stevens)"
+    },
+    {
+      "date": "2026-11-25T13:24:50.524000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Jake Bates)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Al Rucc",
+      "action": "TRADE_SENT",
+      "player": "Player(Chris Olave)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Chris Olave)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Al Rucc",
+      "action": "TRADE_SENT",
+      "player": "Player(David Montgomery)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(David Montgomery)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_SENT",
+      "player": "Player(Jaxon Smith-Njigba)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Al Rucc",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Jaxon Smith-Njigba)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Al Rucc",
+      "action": "TRADE_SENT",
+      "player": "Player(Jonah Coleman)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Jonah Coleman)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Justin Eveland",
+      "action": "TRADE_SENT",
+      "player": "Player(Bam Knight)"
+    },
+    {
+      "date": "2026-11-25T12:41:19.041000+00:00",
+      "owner": "Al Rucc",
+      "action": "TRADE_RECEIVED",
+      "player": "Player(Bam Knight)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Al Rucc",
+      "action": "WAIVER ADDED",
+      "player": "Player(Browns D/ST)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Al Rucc",
+      "action": "DROPPED",
+      "player": "Player(Panthers D/ST)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "WAIVER ADDED",
+      "player": "Player(Malik Washington)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "WAIVER ADDED",
+      "player": "Player(Andre Szmyt)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "DROPPED",
+      "player": "Player(Spencer Shrader)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Chiefs D/ST)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Justin Eveland",
+      "action": "WAIVER ADDED",
+      "player": "Player(Giants D/ST)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "WAIVER ADDED",
+      "player": "Player(Omar Cooper Jr.)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Justin Eveland",
+      "action": "DROPPED",
+      "player": "Player(Cam Ward)"
+    },
+    {
+      "date": "2026-11-25T09:04:51.686000+00:00",
+      "owner": "Justin Eveland",
+      "action": "WAIVER ADDED",
+      "player": "Player(Michael Pittman Jr.)"
+    },
     {
       "date": "2026-11-24T14:50:45.259000+00:00",
       "owner": "Justin Eveland",
@@ -465,90 +615,6 @@
       "owner": "Ryan Cunningham",
       "action": "DROPPED",
       "player": "Player(Ted Hurst III)"
-    },
-    {
-      "date": "2026-11-17T15:06:52.126000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Jordan Watkins)"
-    },
-    {
-      "date": "2026-11-17T15:06:30.906000+00:00",
-      "owner": "Al Rucc",
-      "action": "DROPPED",
-      "player": "Player(Dameon Pierce)"
-    },
-    {
-      "date": "2026-11-17T12:03:38.898000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Colby Parkinson)"
-    },
-    {
-      "date": "2026-11-14T20:38:05.812000+00:00",
-      "owner": "Al Rucc",
-      "action": "TRADE_SENT",
-      "player": "Player(Dylan Sampson)"
-    },
-    {
-      "date": "2026-11-14T20:38:05.812000+00:00",
-      "owner": "Dom Belli",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Dylan Sampson)"
-    },
-    {
-      "date": "2026-11-14T20:38:05.812000+00:00",
-      "owner": "Dom Belli",
-      "action": "TRADE_SENT",
-      "player": "Player(Makai Lemon)"
-    },
-    {
-      "date": "2026-11-14T20:38:05.812000+00:00",
-      "owner": "Al Rucc",
-      "action": "TRADE_RECEIVED",
-      "player": "Player(Makai Lemon)"
-    },
-    {
-      "date": "2026-11-14T08:18:40.796000+00:00",
-      "owner": "ryan grzymala",
-      "action": "WAIVER ADDED",
-      "player": "Player(Malik Washington)"
-    },
-    {
-      "date": "2026-11-13T02:10:30.947000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "FA ADDED",
-      "player": "Player(Dolphins D/ST)"
-    },
-    {
-      "date": "2026-11-13T02:10:01.564000+00:00",
-      "owner": "Hanew Alhayek",
-      "action": "DROPPED",
-      "player": "Player(Dontayvion Wicks)"
-    },
-    {
-      "date": "2026-11-12T22:29:54.237000+00:00",
-      "owner": "Dan Marinos",
-      "action": "DROPPED",
-      "player": "Player(Chiefs D/ST)"
-    },
-    {
-      "date": "2026-11-12T22:27:36.729000+00:00",
-      "owner": "ryan grzymala",
-      "action": "DROPPED",
-      "player": "Player(Chig Okonkwo)"
-    },
-    {
-      "date": "2026-11-12T22:26:44.697000+00:00",
-      "owner": "Jonathan Lee",
-      "action": "DROPPED",
-      "player": "Player(Malik Washington)"
-    },
-    {
-      "date": "2026-11-12T17:47:26.044000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "FA ADDED",
-      "player": "Player(Xavier Hutchinson)"
     }
   ],
   "weekly_scores": [
