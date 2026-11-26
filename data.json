@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:19:37.948369+00:00",
+  "generated_at": "2026-11-26T19:56:01.132966+00:00",
   "current_week": 12,
   "standings": [
     {
@@ -115,7 +115,7 @@
     {
       "team_id": 8,
       "owner": "Bobby Lupo",
-      "espn_team_name": "Wet Wetensteinberg",
+      "espn_team_name": "Punching Bag",
       "wins": 1,
       "losses": 10,
       "ties": 0,
@@ -124,6 +124,78 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-26T16:19:52.763000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "DROPPED",
+      "player": "Player(Brian Robinson Jr.)"
+    },
+    {
+      "date": "2026-11-26T16:19:52.763000+00:00",
+      "owner": "Nicholas Gargiulo & Kevin Crown",
+      "action": "FA ADDED",
+      "player": "Player(Jets D/ST)"
+    },
+    {
+      "date": "2026-11-26T16:08:58.841000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "DROPPED",
+      "player": "Player(Lions D/ST)"
+    },
+    {
+      "date": "2026-11-26T16:08:58.841000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Chargers D/ST)"
+    },
+    {
+      "date": "2026-11-26T16:04:20.128000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "DROPPED",
+      "player": "Player(Dawson Knox)"
+    },
+    {
+      "date": "2026-11-26T16:04:20.128000+00:00",
+      "owner": "Hanew Alhayek",
+      "action": "FA ADDED",
+      "player": "Player(Mike Gesicki)"
+    },
+    {
+      "date": "2026-11-26T15:18:35.515000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Ja'Kobi Lane)"
+    },
+    {
+      "date": "2026-11-26T15:18:35.515000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Chimere Dike)"
+    },
+    {
+      "date": "2026-11-26T15:16:44.744000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Joey Slye)"
+    },
+    {
+      "date": "2026-11-26T15:16:44.744000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Wil Lutz)"
+    },
+    {
+      "date": "2026-11-25T23:22:18.433000+00:00",
+      "owner": "Ryan Cunningham",
+      "action": "FA ADDED",
+      "player": "Player(Jauan Jennings)"
+    },
+    {
+      "date": "2026-11-25T20:36:17.767000+00:00",
+      "owner": "Dom Belli",
+      "action": "DROPPED",
+      "player": "Player(Aaron Rodgers)"
+    },
     {
       "date": "2026-11-25T14:04:09.817000+00:00",
       "owner": "Al Rucc",
@@ -573,48 +645,6 @@
       "owner": "Nicholas Gargiulo & Kevin Crown",
       "action": "DROPPED",
       "player": "Player(Darius Cooper)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Justin Eveland",
-      "action": "WAIVER ADDED",
-      "player": "Player(Chiefs D/ST)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Justin Eveland",
-      "action": "WAIVER ADDED",
-      "player": "Player(Cam Ward)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "WAIVER ADDED",
-      "player": "Player(Elic Ayomanor)"
-    },
-    {
-      "date": "2026-11-18T03:22:52.937000+00:00",
-      "owner": "Bobby Lupo",
-      "action": "DROPPED",
-      "player": "Player(Evan McPherson)"
-    },
-    {
-      "date": "2026-11-18T01:08:21.851000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Kaleb Johnson)"
-    },
-    {
-      "date": "2026-11-17T17:18:20.659000+00:00",
-      "owner": "Justin Eveland",
-      "action": "DROPPED",
-      "player": "Player(Bam Knight)"
-    },
-    {
-      "date": "2026-11-17T15:35:56.913000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Ted Hurst III)"
     }
   ],
   "weekly_scores": [
@@ -1263,6 +1293,65 @@
           "away_team_id": 1,
           "away_owner": "Ryan Cunningham",
           "away_score": 117.7,
+          "type": "regular"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "matchups": [
+        {
+          "home_team_id": 8,
+          "home_owner": "Bobby Lupo",
+          "home_score": 3.4,
+          "away_team_id": 7,
+          "away_owner": "Daniel Jimenez",
+          "away_score": 16.0,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 3,
+          "home_owner": "Chris Dietz",
+          "home_score": 12.0,
+          "away_team_id": 13,
+          "away_owner": "Hanew Alhayek",
+          "away_score": 19.8,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 6,
+          "home_owner": "Nicholas Gargiulo & Kevin Crown",
+          "home_score": 0,
+          "away_team_id": 14,
+          "away_owner": "Al Rucc",
+          "away_score": 14.4,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 2,
+          "home_owner": "Dan Marinos",
+          "home_score": 16.5,
+          "away_team_id": 9,
+          "away_owner": "Jonathan Lee",
+          "away_score": 48.1,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 1,
+          "home_owner": "Ryan Cunningham",
+          "home_score": 6.1,
+          "away_team_id": 10,
+          "away_owner": "Dom Belli",
+          "away_score": 15.1,
+          "type": "regular"
+        },
+        {
+          "home_team_id": 12,
+          "home_owner": "Justin Eveland",
+          "home_score": 3.6,
+          "away_team_id": 5,
+          "away_owner": "ryan grzymala",
+          "away_score": 11.8,
           "type": "regular"
         }
       ]
