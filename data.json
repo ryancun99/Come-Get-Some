@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:56:01.132966+00:00",
+  "generated_at": "2026-11-27T19:45:13.989589+00:00",
   "current_week": 12,
   "standings": [
     {
@@ -124,6 +124,30 @@
     }
   ],
   "transactions": [
+    {
+      "date": "2026-11-27T17:37:52.674000+00:00",
+      "owner": "Al Rucc",
+      "action": "FA ADDED",
+      "player": "Player(Treylon Burks)"
+    },
+    {
+      "date": "2026-11-27T17:08:29.427000+00:00",
+      "owner": "ryan grzymala",
+      "action": "FA ADDED",
+      "player": "Player(Josh Cameron)"
+    },
+    {
+      "date": "2026-11-27T17:08:29.427000+00:00",
+      "owner": "ryan grzymala",
+      "action": "DROPPED",
+      "player": "Player(Pat Bryant)"
+    },
+    {
+      "date": "2026-11-27T16:52:11.880000+00:00",
+      "owner": "Jonathan Lee",
+      "action": "FA ADDED",
+      "player": "Player(Brandon Aiyuk)"
+    },
     {
       "date": "2026-11-26T16:19:52.763000+00:00",
       "owner": "Nicholas Gargiulo & Kevin Crown",
@@ -609,42 +633,6 @@
       "owner": "Chris Dietz",
       "action": "WAIVER ADDED",
       "player": "Player(Chig Okonkwo)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Dom Belli",
-      "action": "WAIVER ADDED",
-      "player": "Player(Dalton Schultz)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Dom Belli",
-      "action": "DROPPED",
-      "player": "Player(Tyler Higbee)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "DROPPED",
-      "player": "Player(Drew Lock)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Ryan Cunningham",
-      "action": "WAIVER ADDED",
-      "player": "Player(Myles Price)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "WAIVER ADDED",
-      "player": "Player(J.J. McCarthy)"
-    },
-    {
-      "date": "2026-11-18T09:22:44.989000+00:00",
-      "owner": "Nicholas Gargiulo & Kevin Crown",
-      "action": "DROPPED",
-      "player": "Player(Darius Cooper)"
     }
   ],
   "weekly_scores": [
@@ -1303,46 +1291,46 @@
         {
           "home_team_id": 8,
           "home_owner": "Bobby Lupo",
-          "home_score": 3.4,
+          "home_score": 51.4,
           "away_team_id": 7,
           "away_owner": "Daniel Jimenez",
-          "away_score": 16.0,
+          "away_score": 19.5,
           "type": "regular"
         },
         {
           "home_team_id": 3,
           "home_owner": "Chris Dietz",
-          "home_score": 12.0,
+          "home_score": 36.0,
           "away_team_id": 13,
           "away_owner": "Hanew Alhayek",
-          "away_score": 19.8,
+          "away_score": 103.3,
           "type": "regular"
         },
         {
           "home_team_id": 6,
           "home_owner": "Nicholas Gargiulo & Kevin Crown",
-          "home_score": 0,
+          "home_score": 31.1,
           "away_team_id": 14,
           "away_owner": "Al Rucc",
-          "away_score": 14.4,
+          "away_score": 28.9,
           "type": "regular"
         },
         {
           "home_team_id": 2,
           "home_owner": "Dan Marinos",
-          "home_score": 16.5,
+          "home_score": 29.5,
           "away_team_id": 9,
           "away_owner": "Jonathan Lee",
-          "away_score": 48.1,
+          "away_score": 57.9,
           "type": "regular"
         },
         {
           "home_team_id": 1,
           "home_owner": "Ryan Cunningham",
-          "home_score": 6.1,
+          "home_score": 55.5,
           "away_team_id": 10,
           "away_owner": "Dom Belli",
-          "away_score": 15.1,
+          "away_score": 82.1,
           "type": "regular"
         },
         {
@@ -1351,7 +1339,7 @@
           "home_score": 3.6,
           "away_team_id": 5,
           "away_owner": "ryan grzymala",
-          "away_score": 11.8,
+          "away_score": 40.6,
           "type": "regular"
         }
       ]
